@@ -9,8 +9,10 @@ $(document).ready(function (){
     $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e){
         e.preventDefault();
         var filename = $(this).attr('href');
-        location.hash = filename.slice(0, -5);
-        $('#main-content').load('pages/' + filename);
+        if (filename != "#") {
+            location.hash = filename.slice(0, -5);
+            $('#main-content').load('pages/' + filename);
+        }
     });
 
     $('#menu-toggle').on('click', function() {
