@@ -13,7 +13,10 @@ ul {
 
 #menu-toggle {
     display: inline-block;
-    margin-left: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: left 0.2s ease;
 }
 
 #nav-container {
@@ -23,6 +26,7 @@ ul {
     bottom: 0;
     width: 200px;
     background: #4c4c4c;
+    transition: left 0.2s ease;
 }
 
 .container {
@@ -37,25 +41,41 @@ ul {
     padding: 0 1em;
 }
 
-.sidebar-links li{
+.sidebar-links li {
     margin: 0.5em 0;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .container {
         margin-left: 0px;
     }
 
     #nav-container {
-        display: none;
+        display: block;
+        left: -200px;
     }
 
     #nav-container.active {
-        display: block;
+        left: 0;
     }
 
     #menu-toggle {
-        margin-left: 0;
+        left: 0;
+    }
+
+    #menu-toggle.active {
+        left: 200px;
+    }
+
+    .container {
+        margin-top: 2em;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    #menu-toggle {
+        display: none;
     }
 
 }

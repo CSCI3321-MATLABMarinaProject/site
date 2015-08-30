@@ -18,10 +18,10 @@ $(document).ready(function (){
     $('#menu-toggle').on('click', function() {
         if ($menuContainer.hasClass('active')){
             $menuContainer.removeClass('active');
-            $(this).css('margin-left', '0');
+            $(this).removeClass('active');
         } else {
             $menuContainer.addClass('active');
-            $(this).css('margin-left', '200px');
+            $(this).addClass('active');
         }
     });
 

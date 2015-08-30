@@ -2,135 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0a2a14-c95b-4133-972e-fa09742242f8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/creating.JPG" afterPath="$PROJECT_DIR$/public/images/creating.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/insertElement.JPG" afterPath="$PROJECT_DIR$/public/images/insertElement.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/lineargenform.gif" afterPath="$PROJECT_DIR$/public/images/lineargenform.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/lineargenform.png" afterPath="$PROJECT_DIR$/public/images/lineargenform.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/matlabpic.bmp" afterPath="$PROJECT_DIR$/public/images/matlabpic.bmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/pdf.png" afterPath="$PROJECT_DIR$/public/images/pdf.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/removeElement.JPG" afterPath="$PROJECT_DIR$/public/images/removeElement.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/replaceElement.JPG" afterPath="$PROJECT_DIR$/public/images/replaceElement.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/vectorArithmetic.JPG" afterPath="$PROJECT_DIR$/public/images/vectorArithmetic.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/vectorLogical.JPG" afterPath="$PROJECT_DIR$/public/images/vectorLogical.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/images/video.png" afterPath="$PROJECT_DIR$/public/images/video.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/R134a_sat.p" afterPath="$PROJECT_DIR$/public/pdf/R134a_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/R134a_sh.p" afterPath="$PROJECT_DIR$/public/pdf/R134a_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/R22_sat.p" afterPath="$PROJECT_DIR$/public/pdf/R22_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/R22_sh.p" afterPath="$PROJECT_DIR$/public/pdf/R22_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/Thermodynamics Tables English Units.xlsx" afterPath="$PROJECT_DIR$/public/pdf/Thermodynamics Tables English Units.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/Thermodynamics Tables SI Units.xlsx" afterPath="$PROJECT_DIR$/public/pdf/Thermodynamics Tables SI Units.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/ammonia_sat.p" afterPath="$PROJECT_DIR$/public/pdf/ammonia_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/ammonia_sh.p" afterPath="$PROJECT_DIR$/public/pdf/ammonia_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/capVoltage.xlsx" afterPath="$PROJECT_DIR$/public/pdf/capVoltage.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/doggrowl.wav" afterPath="$PROJECT_DIR$/public/pdf/doggrowl.wav" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/flowdata.txt" afterPath="$PROJECT_DIR$/public/pdf/flowdata.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/flowdata.xlsx" afterPath="$PROJECT_DIR$/public/pdf/flowdata.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/frog.wav" afterPath="$PROJECT_DIR$/public/pdf/frog.wav" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/hibiscus.jpg" afterPath="$PROJECT_DIR$/public/pdf/hibiscus.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/ideal_gas_air.p" afterPath="$PROJECT_DIR$/public/pdf/ideal_gas_air.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 1d arrays and vectors exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 1d arrays and vectors exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 1d arrays and vectors primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 1d arrays and vectors primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2D plotting exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 2D plotting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2D plotting primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 2D plotting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2d arrays and matrices exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 2d arrays and matrices exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2d arrays and matrices primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 2d arrays and matrices primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 3D plotting exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 3D plotting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina 3D plotting primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina 3D plotting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina algorithm development 1 exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina algorithm development 1 exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina algorithm development 1 primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina algorithm development 1 primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina cell arrays exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina cell arrays exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina cell arrays primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina cell arrays primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina characters and strings exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina characters and strings exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina characters and strings primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina characters and strings primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina curve fitting exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina curve fitting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina curve fitting primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina curve fitting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina debugging exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina debugging exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina debugging primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina debugging primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina differentiation exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina differentiation exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina differentiation primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina differentiation primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina exception handling exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina exception handling exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina exception handling primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina exception handling primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina file input and output exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina file input and output exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina file input and output primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina file input and output primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina for loops exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina for loops exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina for loops primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina for loops primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina functions exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina functions exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina functions primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina functions primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina if-else statements exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina if-else statements exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina if-else statements primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina if-else statements primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina image processing exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina image processing exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina image processing primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina image processing primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina integration exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina integration exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina integration primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina integration primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina interpolation exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina interpolation exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina interpolation primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina interpolation primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina introduction to matlab exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina introduction to matlab exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina introduction to matlab primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina introduction to matlab primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina linear algebraic equations exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina linear algebraic equations exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina linear algebraic equations primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina linear algebraic equations primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina logic expressions exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina logic expressions exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina logic expressions primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina logic expressions primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina recursion exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina recursion exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina recursion primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina recursion primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina searching exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina searching exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina searching primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina searching primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina sorting exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina sorting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina sorting primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina sorting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina sound processing exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina sound processing exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina sound processing primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina sound processing primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina structures exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina structures exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina structures primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina structures primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina switch-case statements exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina switch-case statements exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina switch-case statements primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina switch-case statements primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina variables exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina variables exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina variables primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina variables primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina while loops exercises.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina while loops exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/matlab marina while loops primer.pdf" afterPath="$PROJECT_DIR$/public/pdf/matlab marina while loops primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/nmdata.xlsx" afterPath="$PROJECT_DIR$/public/pdf/nmdata.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/propane_sat.p" afterPath="$PROJECT_DIR$/public/pdf/propane_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/propane_sh.p" afterPath="$PROJECT_DIR$/public/pdf/propane_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/roddata.mat" afterPath="$PROJECT_DIR$/public/pdf/roddata.mat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/roddata.xls" afterPath="$PROJECT_DIR$/public/pdf/roddata.xls" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/water_sat.p" afterPath="$PROJECT_DIR$/public/pdf/water_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/water_sh.p" afterPath="$PROJECT_DIR$/public/pdf/water_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/pages/pdf/workerdata.mat" afterPath="$PROJECT_DIR$/public/pdf/workerdata.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/1darrays.html" afterPath="$PROJECT_DIR$/public/pages/1darrays.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/2darrays.html" afterPath="$PROJECT_DIR$/public/pages/2darrays.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/2dplotting.html" afterPath="$PROJECT_DIR$/public/pages/2dplotting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/3dplotting.html" afterPath="$PROJECT_DIR$/public/pages/3dplotting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/algorithm1.html" afterPath="$PROJECT_DIR$/public/pages/algorithm1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/cellarrays.html" afterPath="$PROJECT_DIR$/public/pages/cellarrays.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/characters.html" afterPath="$PROJECT_DIR$/public/pages/characters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/curvefitting.html" afterPath="$PROJECT_DIR$/public/pages/curvefitting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/debugging.html" afterPath="$PROJECT_DIR$/public/pages/debugging.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/differentiation.html" afterPath="$PROJECT_DIR$/public/pages/differentiation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/examples.html" afterPath="$PROJECT_DIR$/public/pages/examples.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/exceptionhandling.html" afterPath="$PROJECT_DIR$/public/pages/exceptionhandling.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/fileio.html" afterPath="$PROJECT_DIR$/public/pages/fileio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/forloops.html" afterPath="$PROJECT_DIR$/public/pages/forloops.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/functions.html" afterPath="$PROJECT_DIR$/public/pages/functions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/ifelse.html" afterPath="$PROJECT_DIR$/public/pages/ifelse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/imageprocessing.html" afterPath="$PROJECT_DIR$/public/pages/imageprocessing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/integration.html" afterPath="$PROJECT_DIR$/public/pages/integration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/interpolation.html" afterPath="$PROJECT_DIR$/public/pages/interpolation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/introductionmatlab.html" afterPath="$PROJECT_DIR$/public/pages/introductionmatlab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/linearalgebra.html" afterPath="$PROJECT_DIR$/public/pages/linearalgebra.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/logic.html" afterPath="$PROJECT_DIR$/public/pages/logic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/menu.js" afterPath="$PROJECT_DIR$/public/js/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/pdf.html" afterPath="$PROJECT_DIR$/public/pages/pdf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/recursion.html" afterPath="$PROJECT_DIR$/public/pages/recursion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/roots.html" afterPath="$PROJECT_DIR$/public/pages/roots.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/searching.html" afterPath="$PROJECT_DIR$/public/pages/searching.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/sorting.html" afterPath="$PROJECT_DIR$/public/pages/sorting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/soundprocessing.html" afterPath="$PROJECT_DIR$/public/pages/soundprocessing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/statics.html" afterPath="$PROJECT_DIR$/public/pages/statics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/structures.html" afterPath="$PROJECT_DIR$/public/pages/structures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/style.css" afterPath="$PROJECT_DIR$/includes/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/switchcase.html" afterPath="$PROJECT_DIR$/public/pages/switchcase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/thermodynamics.html" afterPath="$PROJECT_DIR$/public/pages/thermodynamics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/variables.html" afterPath="$PROJECT_DIR$/public/pages/variables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/whileloops.html" afterPath="$PROJECT_DIR$/public/pages/whileloops.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
     </list>
     <ignored path="matlab-marina.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,28 +29,28 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.0">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.79153097">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38110748">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -243,10 +117,10 @@
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/public/pages/1darrays.html" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/js/menu.js" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -352,7 +226,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/header.php&#10;style&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/css/style.css&#10;footer&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/footer.php&#10;heade&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/header.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/public/css/style.css&#10;header&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/header.php&#10;style&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/css/style.css&#10;footer&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/footer.php&#10;heade&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/header.php" />
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -689,22 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -728,8 +586,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38110748">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79153097">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
