@@ -572,7 +572,7 @@ ul#nav ul li a:hover, ul#nav ul li a:focus {
 /* add pdf icon to pdf links */
 a[href$='.pdf'] {  
   padding-right: 15px;  
-  background: url('../../images/pdf.png') center right no-repeat;  
+  background: url('../../public/pages/images/pdf.png') center right no-repeat;
 }  
 
 /* try to catch google custom search stuff */

@@ -12,7 +12,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.network "forwarded_port", guest: 3306, host: 8889
     config.vm.network "private_network", ip: "192.168.33.33"
 
-    config.vm.synced_folder ".", "/var/www/"
+    config.vm.synced_folder ".", "/var/www/", :owner=> 'vagrant', :group=>'www-data',
+     :mount_options => ['dmode=775', 'fmode=775']
 
 	config.vm.provision "shell", path: "provision.sh"
 

@@ -2,314 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0a2a14-c95b-4133-972e-fa09742242f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/1_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/1_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/2_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/2_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/3_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/3_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/4_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/4_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/5_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/5_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/JennaSue-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/JennaSue-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/NewsCycle-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/NewsCycle-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/R134a_sat.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/R134a_sh.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/R22_sat.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/R22_sh.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/Thermodynamics Tables English Units.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/Thermodynamics Tables SI Units.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/YanoneKaffeesatz-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/YanoneKaffeesatz-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/ammonia_sat.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/ammonia_sh.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/arrows-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/back.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/back_boats.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/back_coast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/back_orig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/capVoltage.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/creating.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/doggrowl.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/flowdata.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/frog.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/graphic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/hibiscus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/ideal_gas_air.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/insertElement.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lineargenform.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lineargenform.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/main2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/images/main2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 1d arrays and vectors exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 1d arrays and vectors primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 2D plotting exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 2D plotting primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 2d arrays and matrices exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 2d arrays and matrices primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 3D plotting exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina 3D plotting primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina algorithm development 1 exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina algorithm development 1 primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina cell arrays exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina cell arrays primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina characters and strings exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina characters and strings primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina curve fitting exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina curve fitting primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina debugging exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina debugging primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina differentiation exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina differentiation primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina exception handling exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina exception handling primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina file input and output exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina file input and output primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina for loops exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina for loops primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina functions exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina functions primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina if-else statements exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina if-else statements primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina image processing exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina image processing primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina integration exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina integration primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina interpolation exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina interpolation primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina introduction to matlab exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina introduction to matlab primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina linear algebraic equations exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina linear algebraic equations primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina logic expressions exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina logic expressions primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina recursion exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina recursion primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina searching exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina searching primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina sorting exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina sorting primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina sound processing exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina sound processing primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina structures exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina structures primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina switch-case statements exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina switch-case statements primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina variables exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina variables primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina while loops exercises.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/matlab marina while loops primer.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/matlabpic.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/nmdata.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/propane_sat.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/propane_sh.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/removeElement.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/replaceElement.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/roddata.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/roddata.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vectorArithmetic.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vectorLogical.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/water_sat.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/water_sh.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/workerdata.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1darrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2darrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2dplotting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3dplotting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/Jenna Sue Design Font License.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/fonts/News Cycle SIL OFL Font License 1.1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/R134a_sat_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/R134a_sc_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/R134a_sh_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/R22_sat_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/R22_sc_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/R22_sh_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acknowledgements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advancedconcepts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/ajax.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/ammonia_sat_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/ammonia_sc_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/ammonia_sh_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/applications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/areaofcircle.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/books.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cellarrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/characters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/circuit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/circuittest.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/classpercent_to_letter_grade.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code_old.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/collage2images.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conditional.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/css.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/curvefitting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/curvefitting1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/curvefitting2.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/cylinder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/cylindertest.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datastatistics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/debugging.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/differentiation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/differentiationofsine.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/dispplot.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/distanceusingquad.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/distanceusingtrapz.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exceptionhandling.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/fact_recursive.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fileio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/flowdata.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/forloop_buildvector1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/forloop_cosxtaylorseries.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/forloop_writeNtimes.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/forloopdisplaycount.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forloops.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/forloops_buildmatrix1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fundamentalconcepts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fundamentals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/hurricane_category.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/hypotenuse.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/ideal_gas_air_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifelse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/image_colortobw.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageprocessing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/documentation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/index_template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interpolation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/interpolation1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/interpolation2.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/introduction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/introductionmatlab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iteration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/lib/jquery-1.9.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/jquery.easing-sooper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/helpers/jquery.fancybox-media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/source/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/jquery.sooperfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/linear1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/linear2.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/linear_3parachutists.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/linear_electricalcircuits.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linearalgebra.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/makeengr1371.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/matlab-marina.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/menulengthunitconversion.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/modernizr-1.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numericalmethods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/optimization.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ordinarydiffeq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/paravelocity.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/percent_to_letter_grade.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plotting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/plotting3d_helix.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/plotting3d_mesh.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/plotting_sinecurve.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/plotting_sinecurves1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/plotting_sinecurves2.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/plotting_sinecurves3.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/projectiletrajectory.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/propane_sat_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/propane_sc_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/propane_sh_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provision.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/readimages.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recursion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roots.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/runningsum1toN.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/runningsum1toTotal.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/searching.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/semestersoftheyear.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/shBrushMatlab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/css/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/js/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/css/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sorting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/soundprocessing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structures.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/structures1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/structures2.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/structures3.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/structures4.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/switchcase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/team.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thermodynamics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/trajectory_theta.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/trajectorytest.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/usingfzero1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/usingfzero1_fun.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/usingscriptfiles.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variables.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/velocityaccnusingdiff.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/water_sat_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/water_sc_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/water_sh_help.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/whileloop_buildvector1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/whileloop_writeNtimes.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/whileloop_writestatement.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matlabprograms/whileloopdisplaycount.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whileloops.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/creating.JPG" afterPath="$PROJECT_DIR$/public/pages/images/creating.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/insertElement.JPG" afterPath="$PROJECT_DIR$/public/pages/images/insertElement.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lineargenform.gif" afterPath="$PROJECT_DIR$/public/pages/images/lineargenform.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lineargenform.png" afterPath="$PROJECT_DIR$/public/pages/images/lineargenform.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/matlabpic.bmp" afterPath="$PROJECT_DIR$/public/pages/images/matlabpic.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pdf.png" afterPath="$PROJECT_DIR$/public/pages/images/pdf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/removeElement.JPG" afterPath="$PROJECT_DIR$/public/pages/images/removeElement.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/replaceElement.JPG" afterPath="$PROJECT_DIR$/public/pages/images/replaceElement.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/vectorArithmetic.JPG" afterPath="$PROJECT_DIR$/public/pages/images/vectorArithmetic.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/vectorLogical.JPG" afterPath="$PROJECT_DIR$/public/pages/images/vectorLogical.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/video.png" afterPath="$PROJECT_DIR$/public/pages/images/video.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R134a_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R134a_sat.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R134a_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R134a_sh.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R22_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R22_sat.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R22_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R22_sh.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/Thermodynamics Tables English Units.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/Thermodynamics Tables English Units.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/Thermodynamics Tables SI Units.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/Thermodynamics Tables SI Units.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/ammonia_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/ammonia_sat.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/ammonia_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/ammonia_sh.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/capVoltage.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/capVoltage.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/doggrowl.wav" afterPath="$PROJECT_DIR$/public/pages/pdf/doggrowl.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/flowdata.txt" afterPath="$PROJECT_DIR$/public/pages/pdf/flowdata.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/flowdata.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/flowdata.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/frog.wav" afterPath="$PROJECT_DIR$/public/pages/pdf/frog.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/hibiscus.jpg" afterPath="$PROJECT_DIR$/public/pages/pdf/hibiscus.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/ideal_gas_air.p" afterPath="$PROJECT_DIR$/public/pages/pdf/ideal_gas_air.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 1d arrays and vectors exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 1d arrays and vectors exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 1d arrays and vectors primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 1d arrays and vectors primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2D plotting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2D plotting exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2D plotting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2D plotting primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2d arrays and matrices exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2d arrays and matrices exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2d arrays and matrices primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2d arrays and matrices primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 3D plotting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 3D plotting exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 3D plotting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 3D plotting primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina algorithm development 1 exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina algorithm development 1 exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina algorithm development 1 primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina algorithm development 1 primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina cell arrays exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina cell arrays exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina cell arrays primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina cell arrays primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina characters and strings exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina characters and strings exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina characters and strings primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina characters and strings primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina curve fitting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina curve fitting exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina curve fitting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina curve fitting primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina debugging exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina debugging exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina debugging primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina debugging primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina differentiation exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina differentiation exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina differentiation primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina differentiation primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina exception handling exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina exception handling exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina exception handling primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina exception handling primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina file input and output exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina file input and output exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina file input and output primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina file input and output primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina for loops exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina for loops exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina for loops primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina for loops primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina functions exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina functions exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina functions primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina functions primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina if-else statements exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina if-else statements exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina if-else statements primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina if-else statements primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina image processing exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina image processing exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina image processing primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina image processing primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina integration exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina integration exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina integration primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina integration primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina interpolation exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina interpolation exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina interpolation primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina interpolation primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina introduction to matlab exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina introduction to matlab exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina introduction to matlab primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina introduction to matlab primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina linear algebraic equations exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina linear algebraic equations exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina linear algebraic equations primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina linear algebraic equations primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina logic expressions exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina logic expressions exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina logic expressions primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina logic expressions primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina recursion exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina recursion exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina recursion primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina recursion primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina searching exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina searching exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina searching primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina searching primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sorting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sorting exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sorting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sorting primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sound processing exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sound processing exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sound processing primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sound processing primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina structures exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina structures exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina structures primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina structures primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina switch-case statements exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina switch-case statements exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina switch-case statements primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina switch-case statements primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina variables exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina variables exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina variables primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina variables primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina while loops exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina while loops exercises.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina while loops primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina while loops primer.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/nmdata.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/nmdata.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/propane_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/propane_sat.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/propane_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/propane_sh.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/roddata.mat" afterPath="$PROJECT_DIR$/public/pages/pdf/roddata.mat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/roddata.xls" afterPath="$PROJECT_DIR$/public/pages/pdf/roddata.xls" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/water_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/water_sat.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/water_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/water_sh.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/workerdata.mat" afterPath="$PROJECT_DIR$/public/pages/pdf/workerdata.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1darrays.php" afterPath="$PROJECT_DIR$/1darrays.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2darrays.php" afterPath="$PROJECT_DIR$/2darrays.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2dplotting.php" afterPath="$PROJECT_DIR$/2dplotting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3dplotting.php" afterPath="$PROJECT_DIR$/3dplotting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm1.php" afterPath="$PROJECT_DIR$/algorithm1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cellarrays.php" afterPath="$PROJECT_DIR$/cellarrays.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/characters.php" afterPath="$PROJECT_DIR$/characters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curvefitting.php" afterPath="$PROJECT_DIR$/curvefitting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debugging.php" afterPath="$PROJECT_DIR$/debugging.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/differentiation.php" afterPath="$PROJECT_DIR$/differentiation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples.php" afterPath="$PROJECT_DIR$/examples.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exceptionhandling.php" afterPath="$PROJECT_DIR$/exceptionhandling.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileio.php" afterPath="$PROJECT_DIR$/fileio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forloops.php" afterPath="$PROJECT_DIR$/forloops.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifelse.php" afterPath="$PROJECT_DIR$/ifelse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imageprocessing.php" afterPath="$PROJECT_DIR$/imageprocessing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration.php" afterPath="$PROJECT_DIR$/integration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interpolation.php" afterPath="$PROJECT_DIR$/interpolation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/introductionmatlab.php" afterPath="$PROJECT_DIR$/introductionmatlab.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linearalgebra.php" afterPath="$PROJECT_DIR$/linearalgebra.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logic.php" afterPath="$PROJECT_DIR$/logic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf.php" afterPath="$PROJECT_DIR$/pdf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recursion.php" afterPath="$PROJECT_DIR$/recursion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roots.php" afterPath="$PROJECT_DIR$/roots.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching.php" afterPath="$PROJECT_DIR$/searching.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sorting.php" afterPath="$PROJECT_DIR$/sorting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soundprocessing.php" afterPath="$PROJECT_DIR$/soundprocessing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics.php" afterPath="$PROJECT_DIR$/statics.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structures.php" afterPath="$PROJECT_DIR$/structures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/style.css" afterPath="$PROJECT_DIR$/includes/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/switchcase.php" afterPath="$PROJECT_DIR$/switchcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermodynamics.php" afterPath="$PROJECT_DIR$/thermodynamics.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/variables.php" afterPath="$PROJECT_DIR$/variables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whileloops.php" afterPath="$PROJECT_DIR$/whileloops.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="matlab-marina.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -331,8 +156,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/index_template.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-74.0">
+              <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acknowledgements.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acknowledgements.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -341,81 +186,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <file leaf-file-name="books.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/books.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="25.592592">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/css/style.css">
+      <file leaf-file-name="1darrays.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/pages/1darrays.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advancedconcepts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advancedconcepts.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conditional.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conditional.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2darrays.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2darrays.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1darrays.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1darrays.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.296297">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="66.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -433,13 +238,32 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="prototype-sidr" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="$PROJECT_DIR$/public/pages/1darrays.html" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/js/menu.js" />
       </list>
     </option>
   </component>
@@ -449,6 +273,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -480,6 +307,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -498,10 +326,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matlab-marina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matlab-marina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matlab-marina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matlab-marina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,6 +369,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/header.php&#10;style&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/css/style.css&#10;footer&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/footer.php&#10;heade&#9;FILE&#9;file:///home/erik/webdev/matlab-marina/includes/header.php" />
+    <property name="FullScreen" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/pages" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -556,7 +423,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25538972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26091763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -564,7 +431,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -576,6 +443,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -584,7 +459,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/index_template.html">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -592,185 +467,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/js.php">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/documentation/index.html">
+    <entry file="file://$PROJECT_DIR$/public/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css/style.css">
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advancedconcepts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conditional.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2darrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1darrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/index_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/documentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/documentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advancedconcepts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conditional.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2darrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1darrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.296297">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="66.0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -780,7 +551,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/index_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/index_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -794,16 +659,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41042346">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soundprocessing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/2darrays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/3dplotting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1darrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="52.925926">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2darrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="26.25926">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acknowledgements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.592592">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-74.0">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/images/pdf.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/1darrays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
           <folding />
         </state>
       </provider>
