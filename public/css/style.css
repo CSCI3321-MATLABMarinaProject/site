@@ -1,5 +1,6 @@
 ul {
     list-style-type: none;
+    margin-left: -2em;
 }
 
 .pure-g {
@@ -8,6 +9,11 @@ ul {
 
 #menu {
     display: none;
+}
+
+#menu-toggle {
+    display: inline-block;
+    margin-left: 200px;
 }
 
 #nav-container {
@@ -27,6 +33,14 @@ ul {
     display: none;
 }
 
+.container {
+    padding: 0 1em;
+}
+
+.sidebar-links li{
+    margin: 0.5em 0;
+}
+
 @media screen and (max-width: 768px){
     .container {
         margin-left: 0px;
@@ -34,6 +48,14 @@ ul {
 
     #nav-container {
         display: none;
+    }
+
+    #nav-container.active {
+        display: block;
+    }
+
+    #menu-toggle {
+        margin-left: 0;
     }
 
 }

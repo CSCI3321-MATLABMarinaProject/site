@@ -1,139 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0a2a14-c95b-4133-972e-fa09742242f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/creating.JPG" afterPath="$PROJECT_DIR$/public/pages/images/creating.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/insertElement.JPG" afterPath="$PROJECT_DIR$/public/pages/images/insertElement.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lineargenform.gif" afterPath="$PROJECT_DIR$/public/pages/images/lineargenform.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lineargenform.png" afterPath="$PROJECT_DIR$/public/pages/images/lineargenform.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/matlabpic.bmp" afterPath="$PROJECT_DIR$/public/pages/images/matlabpic.bmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pdf.png" afterPath="$PROJECT_DIR$/public/pages/images/pdf.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/removeElement.JPG" afterPath="$PROJECT_DIR$/public/pages/images/removeElement.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/replaceElement.JPG" afterPath="$PROJECT_DIR$/public/pages/images/replaceElement.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/vectorArithmetic.JPG" afterPath="$PROJECT_DIR$/public/pages/images/vectorArithmetic.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/vectorLogical.JPG" afterPath="$PROJECT_DIR$/public/pages/images/vectorLogical.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/video.png" afterPath="$PROJECT_DIR$/public/pages/images/video.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R134a_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R134a_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R134a_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R134a_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R22_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R22_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/R22_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/R22_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/Thermodynamics Tables English Units.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/Thermodynamics Tables English Units.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/Thermodynamics Tables SI Units.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/Thermodynamics Tables SI Units.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/ammonia_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/ammonia_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/ammonia_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/ammonia_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/capVoltage.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/capVoltage.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/doggrowl.wav" afterPath="$PROJECT_DIR$/public/pages/pdf/doggrowl.wav" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/flowdata.txt" afterPath="$PROJECT_DIR$/public/pages/pdf/flowdata.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/flowdata.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/flowdata.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/frog.wav" afterPath="$PROJECT_DIR$/public/pages/pdf/frog.wav" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/hibiscus.jpg" afterPath="$PROJECT_DIR$/public/pages/pdf/hibiscus.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/ideal_gas_air.p" afterPath="$PROJECT_DIR$/public/pages/pdf/ideal_gas_air.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 1d arrays and vectors exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 1d arrays and vectors exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 1d arrays and vectors primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 1d arrays and vectors primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2D plotting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2D plotting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2D plotting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2D plotting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2d arrays and matrices exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2d arrays and matrices exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 2d arrays and matrices primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 2d arrays and matrices primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 3D plotting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 3D plotting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina 3D plotting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina 3D plotting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina algorithm development 1 exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina algorithm development 1 exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina algorithm development 1 primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina algorithm development 1 primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina cell arrays exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina cell arrays exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina cell arrays primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina cell arrays primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina characters and strings exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina characters and strings exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina characters and strings primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina characters and strings primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina curve fitting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina curve fitting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina curve fitting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina curve fitting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina debugging exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina debugging exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina debugging primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina debugging primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina differentiation exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina differentiation exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina differentiation primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina differentiation primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina exception handling exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina exception handling exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina exception handling primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina exception handling primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina file input and output exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina file input and output exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina file input and output primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina file input and output primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina for loops exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina for loops exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina for loops primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina for loops primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina functions exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina functions exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina functions primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina functions primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina if-else statements exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina if-else statements exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina if-else statements primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina if-else statements primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina image processing exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina image processing exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina image processing primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina image processing primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina integration exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina integration exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina integration primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina integration primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina interpolation exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina interpolation exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina interpolation primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina interpolation primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina introduction to matlab exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina introduction to matlab exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina introduction to matlab primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina introduction to matlab primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina linear algebraic equations exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina linear algebraic equations exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina linear algebraic equations primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina linear algebraic equations primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina logic expressions exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina logic expressions exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina logic expressions primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina logic expressions primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina recursion exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina recursion exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina recursion primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina recursion primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina searching exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina searching exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina searching primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina searching primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sorting exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sorting exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sorting primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sorting primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sound processing exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sound processing exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina sound processing primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina sound processing primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina structures exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina structures exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina structures primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina structures primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina switch-case statements exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina switch-case statements exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina switch-case statements primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina switch-case statements primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina variables exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina variables exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina variables primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina variables primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina while loops exercises.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina while loops exercises.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/matlab marina while loops primer.pdf" afterPath="$PROJECT_DIR$/public/pages/pdf/matlab marina while loops primer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/nmdata.xlsx" afterPath="$PROJECT_DIR$/public/pages/pdf/nmdata.xlsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/propane_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/propane_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/propane_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/propane_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/roddata.mat" afterPath="$PROJECT_DIR$/public/pages/pdf/roddata.mat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/roddata.xls" afterPath="$PROJECT_DIR$/public/pages/pdf/roddata.xls" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/water_sat.p" afterPath="$PROJECT_DIR$/public/pages/pdf/water_sat.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/water_sh.p" afterPath="$PROJECT_DIR$/public/pages/pdf/water_sh.p" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/workerdata.mat" afterPath="$PROJECT_DIR$/public/pages/pdf/workerdata.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1darrays.php" afterPath="$PROJECT_DIR$/1darrays.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2darrays.php" afterPath="$PROJECT_DIR$/2darrays.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2dplotting.php" afterPath="$PROJECT_DIR$/2dplotting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3dplotting.php" afterPath="$PROJECT_DIR$/3dplotting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm1.php" afterPath="$PROJECT_DIR$/algorithm1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cellarrays.php" afterPath="$PROJECT_DIR$/cellarrays.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/characters.php" afterPath="$PROJECT_DIR$/characters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curvefitting.php" afterPath="$PROJECT_DIR$/curvefitting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debugging.php" afterPath="$PROJECT_DIR$/debugging.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/differentiation.php" afterPath="$PROJECT_DIR$/differentiation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples.php" afterPath="$PROJECT_DIR$/examples.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exceptionhandling.php" afterPath="$PROJECT_DIR$/exceptionhandling.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileio.php" afterPath="$PROJECT_DIR$/fileio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forloops.php" afterPath="$PROJECT_DIR$/forloops.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifelse.php" afterPath="$PROJECT_DIR$/ifelse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imageprocessing.php" afterPath="$PROJECT_DIR$/imageprocessing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration.php" afterPath="$PROJECT_DIR$/integration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interpolation.php" afterPath="$PROJECT_DIR$/interpolation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/introductionmatlab.php" afterPath="$PROJECT_DIR$/introductionmatlab.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linearalgebra.php" afterPath="$PROJECT_DIR$/linearalgebra.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logic.php" afterPath="$PROJECT_DIR$/logic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf.php" afterPath="$PROJECT_DIR$/pdf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recursion.php" afterPath="$PROJECT_DIR$/recursion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roots.php" afterPath="$PROJECT_DIR$/roots.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching.php" afterPath="$PROJECT_DIR$/searching.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sorting.php" afterPath="$PROJECT_DIR$/sorting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soundprocessing.php" afterPath="$PROJECT_DIR$/soundprocessing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics.php" afterPath="$PROJECT_DIR$/statics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structures.php" afterPath="$PROJECT_DIR$/structures.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/style.css" afterPath="$PROJECT_DIR$/includes/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/switchcase.php" afterPath="$PROJECT_DIR$/switchcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermodynamics.php" afterPath="$PROJECT_DIR$/thermodynamics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/variables.php" afterPath="$PROJECT_DIR$/variables.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whileloops.php" afterPath="$PROJECT_DIR$/whileloops.php" />
+    <list default="true" id="ab0a2a14-c95b-4133-972e-fa09742242f8" name="Default" comment="Menu responsive.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/menu.js" afterPath="$PROJECT_DIR$/public/js/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="matlab-marina.iws" />
@@ -159,8 +31,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-74.0">
-              <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+            <state vertical-scroll-proportion="-12.0">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -170,27 +42,7 @@
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acknowledgements.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acknowledgements.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="25.592592">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -200,37 +52,27 @@
         <entry file="file://$PROJECT_DIR$/public/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1darrays.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1darrays.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/1darrays.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -257,13 +99,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/public/pages/1darrays.html" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/public/js/menu.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -323,38 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="matlab-marina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matlab-marina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matlab-marina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matlab-marina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matlab-marina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,15 +233,16 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26091763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26091763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -442,6 +253,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26091763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -453,6 +284,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Menu responsive." />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu responsive." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -499,14 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -527,14 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -639,21 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,14 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soundprocessing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/2darrays.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -712,78 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1darrays.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="52.925926">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2darrays.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.25926">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acknowledgements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.592592">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-74.0">
-          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/images/pdf.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -793,6 +517,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>

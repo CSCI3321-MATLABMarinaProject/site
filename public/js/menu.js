@@ -1,5 +1,6 @@
 $(document).ready(function (){
     var $menu = $('#menu');
+    var $menuContainer =$('#nav-container');
     $menu.slicknav({
         prependTo: $('#side-nav')
     });
@@ -8,8 +9,20 @@ $(document).ready(function (){
     $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e){
         e.preventDefault();
         var filename = $(this).attr('href');
+        location.hash = filename.slice(0, -5);
         $('#main-content').load('pages/' + filename);
     });
+
+    $('#menu-toggle').on('click', function() {
+        if ($menuContainer.hasClass('active')){
+            $menuContainer.removeClass('active');
+            $(this).css('margin-left', '0');
+        } else {
+            $menuContainer.addClass('active');
+            $(this).css('margin-left', '200px');
+        }
+    });
+
 
 });
 

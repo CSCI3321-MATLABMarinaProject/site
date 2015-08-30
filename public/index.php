@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<a href="#nav-container" class="pure-u-1">Menu</a>
+<div>
+    <a id="menu-toggle" href="#nav-container" class="pure-button">Menu</a>
+</div>
 
 <nav id="nav-container">
     <div id="side-nav"></div>
@@ -182,18 +184,16 @@
 
             </p>
         </section>
-        <section class="pure-u-1 pure-u-md-1-5">
-            <div>
-                <h3>Useful Links</h3>
-                <ul>
-                    <li><a class="pure-button" href="books.html">Books</a></li>
-                    <li><a class="pure-button" href="resources.html">Other Resources</a></li>
-                    <li><a class="pure-button" href="publications.html">Relevant Publications</a></li>
-                    <li><a class="pure-button" href="http://www.mathworks.com">MathWorks</a></li>
-                    <li><a class="pure-button" href="team.html">Team</a></li>
-                    <li><a class="pure-button" href="acknowledgements.html">Acknowledgements</a></li>
-                </ul>
-            </div>
+        <section class="sidebar-links pure-u-1 pure-u-md-1-5">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a class="pure-button" href="books.html">Books</a></li>
+                <li><a class="pure-button" href="resources.html">Other Resources</a></li>
+                <li><a class="pure-button" href="publications.html">Relevant Publications</a></li>
+                <li><a class="pure-button" href="http://www.mathworks.com">MathWorks</a></li>
+                <li><a class="pure-button" href="team.html">Team</a></li>
+                <li><a class="pure-button" href="acknowledgements.html">Acknowledgements</a></li>
+            </ul>
         </section>
     </main>
     <footer class="pure-g-1">
