@@ -10,7 +10,7 @@ $(document).ready(function (){
         e.preventDefault();
         var filename = $(this).attr('href');
         if (filename != "#") {
-            location.hash = filename.slice(0, -5);
+            window.history.pushState({}, filename.slice(0, -5), filename);
             $('#main-content').load('pages/' + filename);
         }
     });
