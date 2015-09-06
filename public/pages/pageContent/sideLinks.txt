@@ -1,0 +1,10 @@
+﻿	<section id="sidebar" class="sidebar-links pure-u-1 pure-u-md-1-5">
+		<h1>Useful Links</h1>
+		<ul>
+			<li><a href="pages/books.php">Books</a></li>
+			<li><a href="pages/resources.php">Other Resources</a></li>
+			<li><a href="pages/publications.php">Relevant Publications</a></li>
+			<li><a href="http://www.mathworks.com">MathWorks</a></li>
+			<li><a href="pages/team.php">Team</a></li>
+			<li><a href="pages/acknowledgements.php">Acknowledgements</a></li>
+		</ul>

@@ -1,81 +1,181 @@
+﻿/* styles.css
+FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
+CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
+SEPTEMBER 6, 2015 
+*/
+h1, h2, p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-rendering: optimizeLegibility;
+}
+h1 {
+	font-weight: normal;
+	font-size: 1.75em;
+	text-decoration: none;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin: 0px;
+}
+h1 a {
+	color: #042C62;
+	text-decoration: none;
+}
+#MATLAB, logo_color {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	display: inline-block;
+	text-rendering: optimizeLegibility;
+}
+#MATLAB {
+	text-decoration: overline;
+	color: #042C62;
+	padding-top: 1%;
+}
+#slogan {
+	font-style: italic;
+	margin-top: 0px;
+}
+#logo_color {
+	color: #0AA0D9;
+	padding: 0px;
+	font-weight: bold;
+}
+footer {
+	margin: 0 auto;
+}
+footer a:link, a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+.container {
+	max-width: 73%;
+	background-color: rgba(255, 255, 255, 1.0);
+}
 ul {
-    list-style-type: none;
-    margin-left: -2em;
+	list-style-type: none;
+	margin-left: -2em;
 }
-
 .pure-g {
-    letter-spacing: normal;
+	letter-spacing: normal;
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 2px dashed #bbb;
 }
-
 #menu {
-    display: none;
+	display: none;
 }
-
 #menu-toggle {
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: left 0.2s ease;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: left 0.2s ease;
 }
-
 #nav-container {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 200px;
-    background: #4c4c4c;
-    transition: left 0.2s ease;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 200px;
+	transition: left 0.2s ease;
+	overflow: auto;
 }
-
-.container {
-    margin-left: 200px;
-}
-
 .slicknav_btn {
-    display: none;
+	display: none;
 }
-
 .container {
-    padding: 0 1em;
+	padding: 0 1em;
 }
-
+.sidebar-links {
+	margin: 0 auto;
+	padding: 5px;
+}
 .sidebar-links li {
-    margin: 0.5em 0;
+	margin: 0.5em 0;
 }
-
+.sidebar-links li a:link, .sidebar-links li a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+/* BEGIN PHONE SCREEN SETTINGS */
 @media screen and (max-width: 768px) {
-    .container {
-        margin-left: 0px;
-    }
-
-    #nav-container {
-        display: block;
-        left: -200px;
-    }
-
-    #nav-container.active {
-        left: 0;
-    }
-
-    #menu-toggle {
-        left: 0;
-    }
-
-    #menu-toggle.active {
-        left: 200px;
-    }
-
-    .container {
-        margin-top: 2em;
-    }
-
+header {
+	text-align: center;
+	margin-bottom: 2%;
 }
-
+.container {
+	margin-left: 0px;
+	max-width: 100%;;
+}
+#main-content {
+	width: 100%;
+	border: none;
+}
+#nav-container {
+	display: block;
+	left: -200px;
+	background-color: white;
+	overflow-y: scroll; /* has to be scroll, not auto */;
+	-webkit-overflow-scrolling: touch;
+	border-right: 2px dashed #bbb;
+}
+#nav-container li a, #nav {
+	color: black;
+}
+#nav-container.active {
+	left: 0;
+}
+#menu-toggle {
+	left: 0;
+	position: fixed;
+}
+#menu-toggle.active {
+	left: 200px;
+}
+#MATLAB, logo_color {
+	font-size: 1.75em;
+}
+#MATLAB {
+	text-decoration: overline;
+	color: #042C62;
+	padding-top: 1%;
+}
+h1, h2 {
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: -10px;
+}
+#slogan {
+	display: none;
+}
+.sidebar-links li {
+	text-align: center;
+}
+}
+/* END PHONE SCREEN SETTINGS */
+/* BEGIN DESKTOP SCREEN SETTINGS */
 @media screen and (min-width: 768px) {
-    #menu-toggle {
-        display: none;
-    }
-
+body {
+	background-image: url("../images/wallpaper.jpg");
 }
+#menu-toggle {
+	display: none;
+}
+#MATLAB, logo_color {
+	font-size: 2.75em;
+}
+.container {
+	margin: -1px auto 0;
+	min-width: 73%;
+	background-color: rgba(255, 255, 255, 1.0);
+	border-bottom: 2px dashed #bbb;
+	margin-left: 200px;
+}
+#main-content {
+	border-right: 2px dashed #bbb;
+	max-width: 75%;
+	padding-right: 20px;
+}
+ul {
+	list-style-type: square;
+}
+}
+/* END DESKTOP SCREEN SETTINGS */
