@@ -1,3 +1,8 @@
+<!--  index.php
+HOME PAGE FOR MATLAB MARINA WEBSITE
+CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
+SEPTEMBER 6, 2015
+-->
 <!doctype html>
 <html lang="en">
 <head>
