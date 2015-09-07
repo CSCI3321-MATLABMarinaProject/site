@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Matlab Marina | <?= $pageTitle ?></title>
+    <title>Matlab Marina</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -107,93 +107,25 @@
         <div id="logo">
             <div id="logo_text">
                 <!-- class="logo_colour", allows you to change the colour of the text -->
-                <h1><a href="index.html">MATLAB<span class="logo_colour"> Marina</span></a></h1>
+                <h1 id="MATLAB"><a href="index.html">MATLAB<span id="logo_color"> Marina</span></a></h1>
 
-                <h2>Navigating the high seas of programming using MATLAB</h2>
+                <h2 id="slogan">Navigating the high seas of programming using MATLAB</h2>
             </div>
         </div>
     </header>
     <main class="pure-g">
         <section id="main-content" class="pure-u-1 pure-u-md-4-5">
-            <h1>Overview</h1>
 
-            <p>MATLAB Marina is a Virtual Learning Environment (VLE) dedicated to the improvement of student learning of
-                programming
-                concepts using MATLAB, a technical computing language.
-                It consists of several learning modules organized under the following areas: Fundamental Programming
-                Concepts,
-                Advanced Programming Concepts and Applications.
-                Each learning module is designed to encompass the following through relevant content items:
-            <ol>
-                <li>Reviewing fundamental algorithmic concepts and MATLAB syntax through primers, list of terms, list of
-                    MATLAB
-                    commands/functions and sample programs,
-                </li>
-                <li>Demonstrating balanced, dual approaches to algorithm development and programming using MATLABs IDE
-                    through
-                    multimedia tutorials and
-                </li>
-                <li>Providing practice exercises and assessment tools.</li>
-            </ol>
-            The VLE is currently used as the primary resource for the following course: Computing for Engineers
-            (ENGR1371)
-            and
-            as a supplement for the course: Computational Modeling (ENGR2010), both
-            taught at <a href="http://www.armstrong.edu">Armstrong State University</a>.<br>
-            <br>
-            Please contact the Project Director <a href="mailto:Priya.Goeser@armstrong.edu">Dr. Priya Goeser </a>
-            if you are interested in further information, plan to use MATLAB Marina actively or in other partnership
-            opportunities.<br>
-            </p>
-            <h1>Background</h1>
-
-            <p> Programming is a skill that is a crucial component in all engineering functions from problem solving to
-                analysis
-                and
-                design.
-                Hence, all engineering curriculums include programming courses and most employers today require
-                engineers to
-                be
-                proficient in programming
-                in one or more languages. Most of these programming courses are designed with the following course
-                outcomes:
-            <ol>
-                <li>Students will be able to use an IDE to develop and debug programs.</li>
-                <li>Students will be able to write programs for solving engineering problems using fundamental
-                    programming
-                    concepts:
-                    mathematical and logic expressions, conditional structures, iteration, functions and arrays.
-                </li>
-                <li>Students will be able to implement programs using advanced programming concepts: cell arrays,
-                    structures
-                    and
-                    recursion
-                    and perform file input and output operations.
-                </li>
-                <li>Students will be able to use MATLAB (or another programming language) for applications such as
-                    plotting
-                    2-D
-                    and
-                    3-D data,
-                    performing numerical methods, and manipulating sound and images.
-                </li>
-                <li>Students will understand stacks, and searching and sorting data.</li>
-            </ol>
-            <p>
-                These are extensive topics that warrant a 1-2 semester course to be covered in depth and detail.
-                This VLE may be used as an effective supplement for such programming courses.
-
-            </p>
         </section>
         <section class="sidebar-links pure-u-1 pure-u-md-1-5">
             <h3>Useful Links</h3>
             <ul>
-                <li><a class="pure-button" href="books.html">Books</a></li>
-                <li><a class="pure-button" href="resources.html">Other Resources</a></li>
-                <li><a class="pure-button" href="publications.html">Relevant Publications</a></li>
-                <li><a class="pure-button" href="http://www.mathworks.com">MathWorks</a></li>
-                <li><a class="pure-button" href="team.html">Team</a></li>
-                <li><a class="pure-button" href="acknowledgements.html">Acknowledgements</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="resources.html">Other Resources</a></li>
+                <li><a href="publications.html">Relevant Publications</a></li>
+                <li><a href="http://www.mathworks.com">MathWorks</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="acknowledgements.html">Acknowledgements</a></li>
             </ul>
         </section>
     </main>
@@ -222,7 +154,8 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/SlickNav-master/jquery.slicknav.js"></script>
-<script src="js/menu.js"></script>
+<script src="js/sammy.min.js"></script>
+<script src="js/navigation.js"></script>
 </body>
 </html>
 

@@ -1,6 +1,9 @@
 $(document).ready(function (){
+
     var $menu = $('#menu');
     var $menuContainer =$('#nav-container');
+    var $mainContents = $('#main-content');
+
     $menu.slicknav({
         prependTo: $('#side-nav')
     });
@@ -10,8 +13,15 @@ $(document).ready(function (){
         e.preventDefault();
         var filename = $(this).attr('href');
         if (filename != "#") {
-            window.history.pushState({}, filename.slice(0, -5), filename);
-            $('#main-content').load('pages/' + filename);
+            window.location.hash = filename.slice(0, -5);
+        }
+    });
+
+    $('.sidebar-links li a').on('click', function (e){
+        e.preventDefault();
+        var filename = $(this).attr('href');
+        if (filename != "#") {
+            window.location.hash = filename.slice(0, -5);
         }
     });
 
@@ -25,6 +35,13 @@ $(document).ready(function (){
         }
     });
 
+    Sammy(function() {
+
+        this.get('#:page', function() {
+            $mainContents.load('pages/' + this.params['page'] + '.html');
+        })
+
+    }).run('#index');
 
 });
 
