@@ -25,7 +25,9 @@ $(document).ready(function (){
         }
     });
 
-    $('#menu-toggle').on('click', function() {
+    $('#menu-toggle').on('click',  toggleMenu());
+
+    function toggleMenu() {
         if ($menuContainer.hasClass('active')){
             $menuContainer.removeClass('active');
             $(this).removeClass('active');
@@ -33,12 +35,13 @@ $(document).ready(function (){
             $menuContainer.addClass('active');
             $(this).addClass('active');
         }
-    });
+    }
 
     Sammy(function() {
 
         this.get('#:page', function() {
             $mainContents.load('pages/' + this.params['page'] + '.html');
+            toggleMenu();
         })
 
     }).run('#index');
