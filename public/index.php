@@ -9,6 +9,8 @@ SEPTEMBER 6, 2015
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matlab Marina</title>
+    <!-- TAB ICON -->
+    <link href="images/protractor.png" rel="shortcut icon">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
