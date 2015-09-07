@@ -19,7 +19,7 @@ h1 a {
 	color: #042C62;
 	text-decoration: none;
 }
-#MATLAB, .logo_color {
+#MATLAB, logo_color {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	display: inline-block;
 	text-rendering: optimizeLegibility;
@@ -32,6 +32,9 @@ h1 a {
 #slogan {
 	font-style: italic;
 	margin-top: 0px;
+	background: -webkit-linear-gradient(#000, #6C6E70);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #logo_color {
 	color: #0AA0D9;
@@ -55,8 +58,6 @@ ul {
 }
 .pure-g {
 	letter-spacing: normal;
-	margin-bottom: 1.5em;
-	padding-bottom: 1.5em;
 	border-bottom: 2px dashed #bbb;
 }
 #menu {
@@ -81,20 +82,12 @@ ul {
 .slicknav_btn {
 	display: none;
 }
-
-.slicknav_menu {
-    background: none;
-}
-
 .container {
 	padding: 0 1em;
 }
 .sidebar-links {
 	margin: 0 auto;
-	padding: 5px;
-}
-.sidebar-links li {
-	margin: 0.5em 0;
+	padding-bottom: 5px;
 }
 .sidebar-links li a:link, .sidebar-links li a:visited {
 	text-decoration: none;
@@ -102,7 +95,7 @@ ul {
 	-o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
-	-webkit-transition: .5s;
+	-webkit-transition: .5s; /* ...and now for the proper property */;
 	transition: .5s;
 }
 .sidebar-links li a:hover {
@@ -120,6 +113,11 @@ p {
 .container {
 	margin-left: 0px;
 	max-width: 100%;
+	background-color: #fff;
+	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 }
 .container li {
 	margin-bottom: 10px;
@@ -132,7 +130,7 @@ p {
 	display: block;
 	left: -200px;
 	background-color: white;
-	overflow-y: scroll;
+	overflow-y: scroll; /* has to be scroll, not auto */;
 	-webkit-overflow-scrolling: touch;
 	border-right: 2px dashed #bbb;
 }
@@ -199,6 +197,10 @@ body {
 	-moz-transition: .5s;
 	-webkit-transition: .5s; /* ...and now for the proper property */;
 	transition: .5s;
+}
+.sidebar-links li {
+	margin-left: 10px;
+	padding-bottom: 5px;
 }
 ul {
 	list-style-type: square;
