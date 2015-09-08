@@ -10,8 +10,6 @@ SEPTEMBER 6, 2015
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>Matlab Marina</title>
-<!-- TAB ICON -->
-<link href="images/protractor.png" rel="shortcut icon">
 <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet">
 <!--[if lte IE 8]>
 <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css" rel="stylesheet">
@@ -137,7 +135,7 @@ SEPTEMBER 6, 2015
 	</section>
     </main>
     <footer class="pure-g-1">
-		<p style="text-align:center">&copy;2011-<?php print date("Y"); ?>, Dr. Priya Goeser,
+		<p style="text-align: center;">&copy;2011-2015, Dr. Priya Goeser,
 		<a href="http://engineering.armstrong.edu">Engineering Studies Program</a>,
 		<a href="http://www.armstrong.edu">Armstrong State University</a><br />
 		<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" rel="license">
