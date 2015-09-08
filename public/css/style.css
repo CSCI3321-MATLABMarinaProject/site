@@ -142,7 +142,6 @@ p {
 }
 #menu-toggle {
 	left: 0;
-	position: fixed;
 }
 #menu-toggle.active {
 	left: 200px;
