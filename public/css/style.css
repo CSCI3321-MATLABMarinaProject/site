@@ -142,7 +142,7 @@ ul {
     .container {
         margin-left: 0px;
         max-width: 100%;
-        margin-top: 1em;
+        margin-top: 1.5em;
     }
 
     .container li {
@@ -157,7 +157,7 @@ ul {
     #nav-container {
         display: block;
         left: -200px;
-        top: 1em;
+        top: 1.5em;
         background-color: white;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
@@ -177,7 +177,7 @@ ul {
         position: fixed;
         display: block;
         width: 100%;
-        height: 1em;
+        height: 1.5em;
         background-color: #042C62;
         box-shadow: none;
     }
@@ -186,14 +186,17 @@ ul {
         color: white;
         background-color: transparent;
         border: none;
-        outline: none;
+    }
+
+    #menu-toggle button:focus {
+        color: #90cfd5;
     }
 
     #menu-toggle.active {
         left: 200px;
     }
 
-    #MATLAB, logo_color {
+    #MATLAB, .logo_color {
         font-size: 1.75em;
     }
 
