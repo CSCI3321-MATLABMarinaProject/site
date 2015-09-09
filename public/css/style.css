@@ -140,8 +140,12 @@ p {
 #nav-container.active {
 	left: 0;
 }
+#nav-container.active {
+	left: 0;
+}
 #menu-toggle {
 	left: 0;
+	position:fixed;
 }
 #menu-toggle.active {
 	left: 200px;
