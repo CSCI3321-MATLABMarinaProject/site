@@ -32,6 +32,9 @@ h1 a {
 #slogan {
 	font-style: italic;
 	margin-top: 0px;
+	background: -webkit-linear-gradient(#000, #6C6E70);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #logo_color {
 	color: #0AA0D9;
@@ -55,8 +58,6 @@ ul {
 }
 .pure-g {
 	letter-spacing: normal;
-	margin-bottom: 1.5em;
-	padding-bottom: 1.5em;
 	border-bottom: 2px dashed #bbb;
 }
 #menu {
@@ -86,14 +87,19 @@ ul {
 }
 .sidebar-links {
 	margin: 0 auto;
-	padding: 5px;
-}
-.sidebar-links li {
-	margin: 0.5em 0;
+	padding-bottom: 5px;
 }
 .sidebar-links li a:link, .sidebar-links li a:visited {
 	text-decoration: none;
 	color: inherit;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s; /* ...and now for the proper property */;
+	transition: .5s;
+}
+.sidebar-links li a:hover {
+	color: #099DD5;
 }
 /* BEGIN PHONE SCREEN SETTINGS */
 @media screen and (max-width: 768px) {
@@ -101,9 +107,20 @@ header {
 	text-align: center;
 	margin-bottom: 2%;
 }
+p {
+	text-align: justify;
+}
 .container {
 	margin-left: 0px;
-	max-width: 100%;;
+	max-width: 100%;
+	background-color: #fff;
+	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+}
+.container li {
+	margin-bottom: 10px;
 }
 #main-content {
 	width: 100%;
@@ -123,9 +140,12 @@ header {
 #nav-container.active {
 	left: 0;
 }
+#nav-container.active {
+	left: 0;
+}
 #menu-toggle {
 	left: 0;
-	position: fixed;
+	position:fixed;
 }
 #menu-toggle.active {
 	left: 200px;
@@ -173,6 +193,17 @@ body {
 	border-right: 2px dashed #bbb;
 	max-width: 75%;
 	padding-right: 20px;
+}
+#nav-container li a:link {
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s; /* ...and now for the proper property */;
+	transition: .5s;
+}
+.sidebar-links li {
+	margin-left: 10px;
+	padding-bottom: 5px;
 }
 ul {
 	list-style-type: square;
