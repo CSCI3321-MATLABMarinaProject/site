@@ -20,8 +20,8 @@ SEPTEMBER 6, 2015
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>
-    <a id="menu-toggle" href="#nav-container" class="pure-button">Menu</a>
+<div id="menu-toggle">
+    <button class="pure-button" href="#">Menu</button>
 </div>
 
 <nav id="nav-container">

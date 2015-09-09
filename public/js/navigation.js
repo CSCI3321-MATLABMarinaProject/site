@@ -14,6 +14,7 @@ $(document).ready(function (){
         var filename = $(this).attr('href');
         if (filename != "#") {
             window.location.hash = filename.slice(0, -5);
+            toggleMenu();
         }
     });
 
@@ -25,7 +26,7 @@ $(document).ready(function (){
         }
     });
 
-    $('#menu-toggle').on('click',  toggleMenu());
+    $('#menu-toggle').on('click', 'button', toggleMenu);
 
     function toggleMenu() {
         if ($menuContainer.hasClass('active')){
@@ -41,8 +42,16 @@ $(document).ready(function (){
 
         this.get('#:page', function() {
             $mainContents.load('pages/' + this.params['page'] + '.html');
-            toggleMenu();
-        })
+        });
+
+        this.get('/:page', function() {
+            if (this.params['page'].slice(-5) == '.html') {
+                window.location.href = window.location.protocol + '//' + window.location.hostname +
+                    '/#' + this.params['page'].slice(0, -5);
+            } else {
+                window.location.href = window.location.href + '?';
+            }
+        });
 
     }).run('#index');
 
