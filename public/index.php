@@ -21,7 +21,7 @@ SEPTEMBER 6, 2015
 </head>
 <body>
 <div id="menu-toggle">
-    <button class="pure-button" href="#">Menu</button>
+    <button>Menu</button>
 </div>
 
 <nav id="nav-container">
