@@ -18,14 +18,6 @@ $(document).ready(function (){
         }
     });
 
-    $('.sidebar-links li a').on('click', function (e){
-        e.preventDefault();
-        var filename = $(this).attr('href');
-        if (filename != "#") {
-            window.location.hash = filename.slice(0, -5);
-        }
-    });
-
     $('#menu-toggle').on('click', 'button', toggleMenu);
 
     function toggleMenu() {
@@ -49,7 +41,7 @@ $(document).ready(function (){
                 window.location.href = window.location.protocol + '//' + window.location.hostname +
                     '/#' + this.params['page'].slice(0, -5);
             } else {
-                window.location.href = window.location.href + '?';
+                window.location = window.location.href;
             }
         });
 
