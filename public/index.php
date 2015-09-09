@@ -22,7 +22,7 @@ SEPTEMBER 6, 2015
 </head>
 <body>
 <div>
-    <a id="menu-toggle" href="#nav-container" class="pure-button">Menu</a>
+    <a id="menu-toggle" href="#nav-container" class="pure-button">M</br>e</br>n</br>u</a>
 </div>
 
 <nav id="nav-container">
@@ -161,4 +161,3 @@ SEPTEMBER 6, 2015
 <script src="js/navigation.js"></script>
 </body>
 </html>
-
