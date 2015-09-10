@@ -37,11 +37,11 @@ h1 a {
 #slogan {
     font-style: italic;
     margin-top: 0px;
-	font-style: italic;
-	margin-top: 0px;
-	background: -webkit-linear-gradient(#000, #6C6E70);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    font-style: italic;
+    margin-top: 0px;
+    background: -webkit-linear-gradient(#000, #6C6E70);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #logo_color {
@@ -101,22 +101,24 @@ ul {
 .slicknav_btn {
     display: none;
 }
+
 .container {
     padding: 0 1em;
 }
 
 .sidebar-links {
-	margin: 0 auto;
-	padding-bottom: 5px;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
+
 .sidebar-links li a:link, .sidebar-links li a:visited {
-	text-decoration: none;
-	color: inherit;
-	-o-transition: .5s;
-	-ms-transition: .5s;
-	-moz-transition: .5s;
-	-webkit-transition: .5s; /* ...and now for the proper property */;
-	transition: .5s;
+    text-decoration: none;
+    color: inherit;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s; /* ...and now for the proper property */;
+    transition: .5s;
 }
 
 .sidebar-links li a:hover {
@@ -125,111 +127,155 @@ ul {
 
 /* BEGIN PHONE SCREEN SETTINGS */
 @media screen and (max-width: 768px) {
-header {
-	text-align: center;
-	margin-bottom: 2%;
-}
-p {
-	text-align: justify;
-}
-.container {
-	margin-left: 0px;
-	max-width: 100%;
-	background-color: #fff;
-	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-}
-.container li {
-	margin-bottom: 10px;
-}
-#main-content {
-	width: 100%;
-	border: none;
-}
-#nav-container {
-	display: block;
-	left: -200px;
-	background-color: white;
-	overflow-y: scroll; /* has to be scroll, not auto */;
-	-webkit-overflow-scrolling: touch;
-	border-right: 2px dashed #bbb;
-}
-#nav-container li a, #nav {
-	color: black;
-}
-#nav-container.active {
-	left: 0;
-}
-#nav-container.active {
-	left: 0;
-}
-#menu-toggle {
-	left: 0;
-	position:fixed;
-}
-#menu-toggle.active {
-	left: 200px;
-}
-#MATLAB, logo_color {
-	font-size: 1.75em;
-}
-#MATLAB {
-	text-decoration: overline;
-	color: #042C62;
-	padding-top: 1%;
-}
-h1, h2 {
-	font-size: 1.2em;
-	text-align: center;
-	margin-bottom: -10px;
-}
-#slogan {
-	display: none;
-}
-.sidebar-links li {
-	text-align: center;
-}
+    header {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .container {
+        margin-left: 0px;
+        max-width: 100%;
+        background-color: #fff;
+        background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+        background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+        background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+        background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+    }
+
+    .container li {
+        margin-bottom: 10px;
+    }
+
+    #main-content {
+        width: 100%;
+        border: none;
+    }
+
+    #nav-container {
+        display: block;
+        left: -200px;
+        background-color: white;
+        overflow-y: scroll; /* has to be scroll, not auto */;
+        -webkit-overflow-scrolling: touch;
+        border-right: 2px dashed #bbb;
+    }
+
+    #nav-container li a, #nav {
+        color: black;
+    }
+
+    #nav-container.active {
+        left: 0;
+    }
+
+    #nav-container.active {
+        left: 0;
+    }
+
+    #menu-toggle {
+        left: 0;
+        position: fixed;
+    }
+
+    #menu-toggle {
+        left: 0;
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 1.5em;
+        background-color: #042C62;
+        box-shadow: none;
+    }
+
+    #menu-toggle button {
+        color: white;
+        background-color: transparent;
+        border: none;
+    }
+
+    #menu-toggle button:focus {
+        color: #90cfd5;
+    }
+
+    #menu-toggle.active {
+        left: 200px;
+    }
+
+    #MATLAB, .logo_color {
+        font-size: 1.75em;
+    }
+
+    #MATLAB {
+        text-decoration: overline;
+        color: #042C62;
+        padding-top: 1%;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: -10px;
+    }
+
+    #slogan {
+        display: none;
+    }
+
+    .sidebar-links li {
+        text-align: center;
+    }
+
 }
 
 /* END PHONE SCREEN SETTINGS */
 /* BEGIN DESKTOP SCREEN SETTINGS */
 @media screen and (min-width: 768px) {
-body {
-	background-image: url("../images/wallpaper.jpg");
+    body {
+        background-image: url("../images/wallpaper.jpg");
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #MATLAB, .logo_color {
+        font-size: 2.75em;
+    }
+
+    .container {
+        margin: -1px auto 0;
+        min-width: 73%;
+        background-color: rgba(255, 255, 255, 1.0);
+        border-bottom: 2px dashed #bbb;
+        margin-left: 200px;
+    }
+
+    #main-content {
+        border-right: 2px dashed #bbb;
+        max-width: 75%;
+        padding-right: 20px;
+    }
+
+    #nav-container li a:link {
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s; /* ...and now for the proper property */;
+        transition: .5s;
+    }
+
+    .sidebar-links li {
+        margin-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    ul {
+        list-style-type: square;
+    }
 }
-#menu-toggle {
-	display: none;
-}
-#MATLAB, logo_color {
-	font-size: 2.75em;
-}
-.container {
-	margin: -1px auto 0;
-	min-width: 73%;
-	background-color: rgba(255, 255, 255, 1.0);
-	border-bottom: 2px dashed #bbb;
-	margin-left: 200px;
-}
-#main-content {
-	border-right: 2px dashed #bbb;
-	max-width: 75%;
-	padding-right: 20px;
-}
-#nav-container li a:link {
-	-o-transition: .5s;
-	-ms-transition: .5s;
-	-moz-transition: .5s;
-	-webkit-transition: .5s; /* ...and now for the proper property */;
-	transition: .5s;
-}
-.sidebar-links li {
-	margin-left: 10px;
-	padding-bottom: 5px;
-}
-ul {
-	list-style-type: square;
-}
-}
+
 /* END DESKTOP SCREEN SETTINGS */
