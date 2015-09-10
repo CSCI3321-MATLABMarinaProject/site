@@ -159,6 +159,7 @@ ul {
     }
 
     #nav-container {
+        margin-top: 1.5em;
         display: block;
         left: -200px;
         background-color: white;
