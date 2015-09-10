@@ -31,8 +31,9 @@ SEPTEMBER 6, 2015
 <nav class=".side-nav" id="menu">
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="introduction.html">Introduction</a>
+        <li><a href="#">Introduction</a>
             <ul>
+                <li><a href="introduction.html">Welcome to MATLAB Marina</a></li>
                 <li><a href="introductionmatlab.html">Introduction to MATLAB</a></li>
                 <li><a href="fundamentals.html">Fundamentals of Programming</a></li>
                 <li><a href="algorithm1.html">Algorithm Development I</a></li>
