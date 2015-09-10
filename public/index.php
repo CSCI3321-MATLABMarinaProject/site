@@ -1,3 +1,4 @@
+
 <!--  index.php
 HOME PAGE FOR MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
@@ -135,8 +136,8 @@ SEPTEMBER 6, 2015
         </section>
     </main>
     <footer class="pure-g-1">
-        <p>
-            &copy;2011-<?php print date("Y"); ?>, Dr. Priya Goeser, <a href="http://engineering.armstrong.edu">Engineering
+        <p style="text-align: center;">
+            &copy;2011-2015, Dr. Priya Goeser, <a href="http://engineering.armstrong.edu">Engineering
                 Studies
                 Program</a>, <a href="http://www.armstrong.edu">Armstrong State University</a><br/>
 
@@ -150,9 +151,6 @@ SEPTEMBER 6, 2015
                 Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>
 
             <br/>
-            <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a>,
-            <a href="http://www.sxc.hu/profile/pasip">background photo by Pasi Pitkanen</a>
-
 
         </p>
     </footer>
@@ -163,4 +161,3 @@ SEPTEMBER 6, 2015
 <script src="js/navigation.js"></script>
 </body>
 </html>
-
