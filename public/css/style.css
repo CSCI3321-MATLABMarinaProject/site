@@ -122,10 +122,10 @@ ul {
     color: #099DD5;
 }
 
-.slicknav_parent ul li:first-child a {
+/*.slicknav_parent ul li:first-child a {
     font-weight: 600;
     color: #EBB035;
-}
+}*/
 
 /* BEGIN PHONE SCREEN SETTINGS */
 @media screen and (max-width: 768px) {
