@@ -1,15 +1,16 @@
-$(document).ready(function (){
+$(document).ready(function () {
 
     var $menu = $('#menu');
-    var $menuContainer =$('#nav-container');
+    var $menuContainer = $('#nav-container');
     var $mainContents = $('#main-content');
+    var currentPage = 'index';
 
     $menu.slicknav({
         prependTo: $('#side-nav')
     });
     $menu.slicknav('open');
 
-    $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e){
+    $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e) {
         e.preventDefault();
         var filename = $(this).attr('href');
         if (filename != "#") {
@@ -21,7 +22,7 @@ $(document).ready(function (){
     $('#menu-toggle').on('click', 'button', toggleMenu);
 
     function toggleMenu() {
-        if ($menuContainer.hasClass('active')){
+        if ($menuContainer.hasClass('active')) {
             $menuContainer.removeClass('active');
             $(this).removeClass('active');
         } else {
@@ -30,18 +31,23 @@ $(document).ready(function (){
         }
     }
 
-    Sammy(function() {
+    Sammy(function () {
 
-        this.get('#:page', function() {
+        this.get('#:page', function () {
             $mainContents.load('pages/' + this.params['page'] + '.html');
+            currentPage = this.params['page'];
         });
 
-        this.get('/:page', function() {
+        this.get('/:page', function () {
+            var hash = this.params['page'].slice(0, -5);
             if (this.params['page'].slice(-5) == '.html') {
                 window.location.href = window.location.protocol + '//' + window.location.hostname +
-                    '/#' + this.params['page'].slice(0, -5);
+                    '/#' + hash;
+                currentPage = hash;
             } else {
-                window.location = window.location.href;
+                window.open(window.location.href);
+                window.location.href = window.location.href = window.location.protocol + '//' + window.location.hostname +
+                    '/#' + currentPage;
             }
         });
 
@@ -51,8 +57,8 @@ $(document).ready(function (){
 
 (function (window, document) {
 
-    var layout   = document.getElementById('layout'),
-        menu     = document.getElementById('menu'),
+    var layout = document.getElementById('layout'),
+        menu = document.getElementById('menu'),
         menuLink = document.getElementById('menuLink');
 
     function toggleClass(element, className) {
@@ -60,7 +66,7 @@ $(document).ready(function (){
             length = classes.length,
             i = 0;
 
-        for(; i < length; i++) {
+        for (; i < length; i++) {
             if (classes[i] === className) {
                 classes.splice(i, 1);
                 break;
@@ -75,12 +81,12 @@ $(document).ready(function (){
     }
 
     /*menuLink.onclick = function (e) {
-        var active = 'active';
+     var active = 'active';
 
-        e.preventDefault();
-        toggleClass(layout, active);
-        toggleClass(menu, active);
-        toggleClass(menuLink, active);
-    };*/
+     e.preventDefault();
+     toggleClass(layout, active);
+     toggleClass(menu, active);
+     toggleClass(menuLink, active);
+     };*/
 
 }(this, this.document));
