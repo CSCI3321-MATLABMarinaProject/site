@@ -204,16 +204,16 @@ h1, h2 {
 	margin-bottom: -10px;
 }
 h1{
-	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#CCCCCC), to(#fff));
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent));
 
   /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #CCCCCC, #fff);
+  background: -webkit-radial-gradient(circle, #E9E9E9, transparent);
 
   /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #CCCCCC, #fff);
+  background: -moz-radial-gradient(circle, #E9E9E9, transparent);
 
   /* IE 10 */
-  background: -ms-radial-gradient(circle, #CCCCCC, #fff);
+  background: -ms-radial-gradient(circle, #E9E9E9, transparent);
 }
 #slogan {
 	display: none;
