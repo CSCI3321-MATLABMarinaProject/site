@@ -32,9 +32,7 @@ h1 a {
 #slogan {
 	text-align: center;
 	font-style: italic;
-	margin-top: 0px;
 	font-style: italic;
-	margin-top: 0px;
 	background: -webkit-linear-gradient(#000, #6C6E70);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -133,7 +131,6 @@ p {
 }
 .container {
 	margin-left: 0px;
-	margin-top: 1.5em;
 	max-width: 100%;
 	background-color: #fff;
 	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
