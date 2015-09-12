@@ -21,8 +21,13 @@ SEPTEMBER 6, 2015
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<<<<<<< HEAD
 <div id="menu-toggle">
     <button>Menu</button>
+=======
+<div>
+    <a id="menu-toggle" href="#nav-container" class="pure-button">M</br>e</br>n</br>u</a>
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 </div>
 
 <nav id="nav-container">
@@ -114,7 +119,12 @@ SEPTEMBER 6, 2015
         <div id="logo">
             <div id="logo_text">
                 <!-- class="logo_colour", allows you to change the colour of the text -->
+<<<<<<< HEAD
                 <div id="header-img"> </div>
+=======
+                <h1 id="MATLAB"><a href="index.html">MATLAB<span id="logo_color"> Marina</span></a></h1>
+
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
                 <h2 id="slogan">Navigating the high seas of programming using MATLAB</h2>
             </div>
         </div>

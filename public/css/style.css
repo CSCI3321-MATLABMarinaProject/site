@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿/* styles.css
+=======
+/* styles.css
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015 
@@ -19,7 +23,11 @@ h1 a {
 	color: #042C62;
 	text-decoration: none;
 }
+<<<<<<< HEAD
 #MATLAB, .logo_color {
+=======
+#MATLAB, logo_color {
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	display: inline-block;
 	text-rendering: optimizeLegibility;
@@ -30,9 +38,12 @@ h1 a {
 	padding-top: 1%;
 }
 #slogan {
+<<<<<<< HEAD
 	text-align: center;
 	font-style: italic;
 	margin-top: 0px;
+=======
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 	font-style: italic;
 	margin-top: 0px;
 	background: -webkit-linear-gradient(#000, #6C6E70);
@@ -54,7 +65,10 @@ footer a:link, a:visited {
 .container {
 	max-width: 73%;
 	background-color: rgba(255, 255, 255, 1.0);
+<<<<<<< HEAD
 	padding: 0 1em;
+=======
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 }
 ul {
 	list-style-type: none;
@@ -62,8 +76,11 @@ ul {
 }
 .pure-g {
 	letter-spacing: normal;
+<<<<<<< HEAD
 	margin-bottom: 1.5em;
 	padding-bottom: 1.5em;
+=======
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 	border-bottom: 2px dashed #bbb;
 }
 #menu {
@@ -87,6 +104,7 @@ ul {
 }
 .slicknav_btn {
 	display: none;
+<<<<<<< HEAD
 }
 .sidebar-links {
 	margin: 0 auto;
@@ -206,6 +224,96 @@ h1, h2 {
 .sidebar-links li {
 	text-align: center;
 }
+=======
+}
+.container {
+	padding: 0 1em;
+}
+.sidebar-links {
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+.sidebar-links li a:link, .sidebar-links li a:visited {
+	text-decoration: none;
+	color: inherit;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s; /* ...and now for the proper property */;
+	transition: .5s;
+}
+.sidebar-links li a:hover {
+	color: #099DD5;
+}
+/* BEGIN PHONE SCREEN SETTINGS */
+@media screen and (max-width: 768px) {
+header {
+	text-align: center;
+	margin-bottom: 2%;
+}
+p {
+	text-align: justify;
+}
+.container {
+	margin-left: 0px;
+	max-width: 100%;
+	background-color: #fff;
+	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
+}
+.container li {
+	margin-bottom: 10px;
+}
+#main-content {
+	width: 100%;
+	border: none;
+}
+#nav-container {
+	display: block;
+	left: -200px;
+	background-color: white;
+	overflow-y: scroll; /* has to be scroll, not auto */;
+	-webkit-overflow-scrolling: touch;
+	border-right: 2px dashed #bbb;
+}
+#nav-container li a, #nav {
+	color: black;
+}
+#nav-container.active {
+	left: 0;
+}
+#nav-container.active {
+	left: 0;
+}
+#menu-toggle {
+	left: 0;
+	position:fixed;
+}
+#menu-toggle.active {
+	left: 200px;
+}
+#MATLAB, logo_color {
+	font-size: 1.75em;
+}
+#MATLAB {
+	text-decoration: overline;
+	color: #042C62;
+	padding-top: 1%;
+}
+h1, h2 {
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: -10px;
+}
+#slogan {
+	display: none;
+}
+.sidebar-links li {
+	text-align: center;
+}
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 }
 /* END PHONE SCREEN SETTINGS */
 /* BEGIN DESKTOP SCREEN SETTINGS */
@@ -213,6 +321,7 @@ h1, h2 {
 body {
 	background-image: url("../images/wallpaper.jpg");
 }
+<<<<<<< HEAD
 #header-img {
 	background-image: url("../images/logo.jpg");
 	background-size: cover;
@@ -221,6 +330,12 @@ body {
 	display: none;
 }
 #MATLAB, .logo_color {
+=======
+#menu-toggle {
+	display: none;
+}
+#MATLAB, logo_color {
+>>>>>>> 80dc424e3da6b445897a83fdc20f622336bf200d
 	font-size: 2.75em;
 }
 .container {
