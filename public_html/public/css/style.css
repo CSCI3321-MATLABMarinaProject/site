@@ -181,6 +181,11 @@ p {
 	color: black;
 	background-color: #fff;
 	border: 2px #CCCCCC solid;
+    -webkit-transition: background-color 2s ease-in-out;
+    -moz-transition: background-color 2s ease-in-out;
+    -o-transition: background-color 2s ease-in-out;
+    -khtml-transition: background-color 2s ease-in-out;
+    transition: background-color 2s ease-in-out;
 }
 #menu-toggle button:focus {
 	color: #90cfd5;
