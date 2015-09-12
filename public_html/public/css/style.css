@@ -6,6 +6,7 @@ SEPTEMBER 6, 2015
 h1, h2, p {
 	font-family: Arial, Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
+	
 }
 h1 {
 	font-weight: normal;
@@ -235,8 +236,10 @@ body {
 	background-size: cover;
 }
 #slogan {
-	margin-top: -30px;
+	margin-top: -2%;
 	position: relative;
+	white-space: nowrap;
+	
 }
 #menu-toggle {
 	display: none;
