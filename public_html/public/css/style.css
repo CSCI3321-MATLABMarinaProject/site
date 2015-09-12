@@ -218,6 +218,11 @@ h1{
 .sidebar-links li {
 	text-align: center;
 }
+#logoImage{
+	width: 120%;
+	margin-left: -8%;
+	margin-bottom:-10px;
+}
 }
 /* END PHONE SCREEN SETTINGS */
 /* BEGIN DESKTOP SCREEN SETTINGS */
