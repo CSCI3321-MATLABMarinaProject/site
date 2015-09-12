@@ -1,4 +1,4 @@
-﻿/* styles.css
+/* styles.css
 FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015 
@@ -205,14 +205,14 @@ ul {
         display: block;
         width: 100%;
         height: 1.5em;
-        background-color: transparent;
+        background-color: #042C62;
         box-shadow: none;
     }
 
     #menu-toggle button {
-        color: black;
-        background-color: #fff;
-        border: 2px #CCCCCC solid;
+        color: white;
+        background-color: transparent;
+        border: none;
     }
 
     #menu-toggle button:focus {
@@ -237,14 +237,6 @@ ul {
         font-size: 1.2em;
         text-align: center;
         margin-bottom: -10px;
-            background: -moz-radial-gradient(center, ellipse cover,  #CCCCCC 0%, #fff 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#CCCCCC), color-stop(100%,#fff)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #CCCCCC 0%,#fff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #CCCCCC 0%,#fff 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #CCCCCC 0%,#fff 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #CCCCCC 0%,#fff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#fff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
     }
 
     #slogan {
@@ -268,12 +260,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', end
         background-image: url("../images/logo.jpg");
         background-size: cover;
     }
-    
-    #slogan{
-	        margin-top: -30px;
-	        
-	       position: relative;
-}
 
     #menu-toggle {
         display: none;

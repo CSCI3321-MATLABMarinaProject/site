@@ -112,9 +112,9 @@ SEPTEMBER 6, 2015
 <div class="container pure-g">
     <header class="pure-u-1">
         <div id="logo">
-            <div id="logo_text" style="margin:0 auto; text-align:center;">
+            <div id="logo_text">
                 <!-- class="logo_colour", allows you to change the colour of the text -->
-                <div><img alt="" src="images/logo.jpg" style="width:80%;"></div>
+                <div id="header-img"> </div>
                 <h2 id="slogan">Navigating the high seas of programming using MATLAB</h2>
             </div>
         </div>
@@ -124,7 +124,7 @@ SEPTEMBER 6, 2015
 
         </section>
         <section class="sidebar-links pure-u-1 pure-u-md-1-5">
-            <h1>Useful Links</h1>
+            <h3>Useful Links</h3>
             <ul>
                 <li><a href="books.html">Books</a></li>
                 <li><a href="resources.html">Other Resources</a></li>
