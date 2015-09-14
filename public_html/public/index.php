@@ -157,10 +157,13 @@ SEPTEMBER 6, 2015
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 30) {
-                    $("button").css('background-color', '#fe2e2e');
+                    $("button").css('background-color', '#042A5F');
+                    $("button").css('color', '#fff');
                 }   
                 if(scroll_pos < 30) {
                     $("button").css('background-color', 'inherit');
+                    $("button").css('color', 'inherit');
+
                 }            });
         });</script>
 
