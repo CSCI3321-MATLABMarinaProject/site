@@ -183,6 +183,7 @@ p {
 	-o-transition: background-color 2s ease-in-out;
 	-khtml-transition: background-color 2s ease-in-out;
 	transition: background-color 2s ease-in-out;
+		padding: 4px;
 }
 #menu-toggle button:focus {
 	color: #90cfd5;
@@ -295,6 +296,7 @@ p {
 	-o-transition: background-color 2s ease-in-out;
 	-khtml-transition: background-color 2s ease-in-out;
 	transition: background-color 2s ease-in-out;
+	padding: 8px;
 }
 #menu-toggle button:focus {
 	color: #90cfd5;
