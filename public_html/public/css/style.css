@@ -32,7 +32,6 @@ h1 a {
 #slogan {
 	text-align: center;
 	font-style: italic;
-	font-style: italic;
 	background: -webkit-linear-gradient(#000, #6C6E70);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -73,6 +72,10 @@ ul {
 	top: 0;
 	left: 0;
 	transition: left 0.2s ease;
+	width: 100%;
+	height: 1.5em;
+	background-color: transparent;
+	box-shadow: none;
 }
 #nav-container {
 	position: fixed;
@@ -96,7 +99,7 @@ ul {
 	-o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
-	-webkit-transition: .5s; /* ...and now for the proper property */;
+	-webkit-transition: .5s;
 	transition: .5s;
 }
 .sidebar-links li a:hover {
@@ -110,12 +113,12 @@ ul {
 	margin-top: 0.1em;
 	background-position: center;
 }
-/* BEGIN PHONE SCREEN SETTINGS */
-@media screen and (max-width: 768px) {
 header {
 	text-align: center;
 	margin-bottom: 2%;
 }
+/* BEGIN PHONE SCREEN SETTINGS */
+@media screen and (max-width: 768px) {
 #header-img {
 	background-image: url("../images/logo-blueprint-narrow.jpg");
 	background-size: contain;
@@ -144,13 +147,13 @@ p {
 	border: none;
 }
 #nav-container {
-	margin-top: 1.5em;
+	margin-top: 2em;
 	display: block;
 	left: -200px;
 	background-color: white;
-	overflow-y: scroll; /* has to be scroll, not auto */;
-	-webkit-overflow-scrolling: touch;
 	border-right: 2px dashed #bbb;
+/* SMOOTH SCROLLING */overflow-y: scroll; /* has to be scroll, not auto */;
+	-webkit-overflow-scrolling: touch;
 }
 #nav-container li a, #nav {
 	color: black;
@@ -183,7 +186,7 @@ p {
 	-o-transition: background-color 2s ease-in-out;
 	-khtml-transition: background-color 2s ease-in-out;
 	transition: background-color 2s ease-in-out;
-		padding: 4px;
+	padding: 4px;
 }
 #menu-toggle button:focus {
 	color: #90cfd5;
@@ -257,13 +260,14 @@ p {
 	border: none;
 }
 #nav-container {
-	margin-top: 1.5em;
+	margin-top: 2.5em;
 	display: block;
 	left: -200px;
 	background-color: white;
 	overflow-y: scroll; /* has to be scroll, not auto */;
 	-webkit-overflow-scrolling: touch;
 	border-right: 2px dashed #bbb;
+	z-index: 1; /* POSITION BEFORE ALL OTHER ELEMENTS */
 }
 #nav-container li a, #nav {
 	color: black;
@@ -277,8 +281,6 @@ p {
 #menu-toggle {
 	left: 0;
 	position: fixed;
-}
-#menu-toggle {
 	left: 0;
 	position: fixed;
 	display: block;
@@ -336,7 +338,6 @@ h1 {
 	margin-bottom: -10px;
 }
 }
-
 /* END TABLET SCREEN SETTINGS */
 /* BEGIN DESKTOP SCREEN SETTINGS */
 @media screen and (min-width: 1025px) {
@@ -386,6 +387,10 @@ ul {
 }
 #logoImage {
 	width: 80%;
+}
+table, th, td {
+	border: 2px #042C62 solid;
+	padding: 10px;
 }
 }
 /* END DESKTOP SCREEN SETTINGS */
