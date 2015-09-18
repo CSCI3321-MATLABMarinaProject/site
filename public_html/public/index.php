@@ -114,7 +114,7 @@ SEPTEMBER 6, 2015
 		<div id="logo">
 			<div id="logo_text">
 				<div>
-				<a href="index.html">
+					<a href="index.html">
 					<img id="logoImage" alt="" src="images/logo.jpg"></a></div>
 				<h2 id="slogan">Navigating the high seas of programming using MATLAB</h2>
 			</div>
@@ -124,7 +124,7 @@ SEPTEMBER 6, 2015
         <section id="main-content" class="pure-u-1 pure-u-md-4-5">
 	</section>
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
-		<h1 style=" font-size:1.5em;">Useful Links</h1>
+		<h1 style="font-size: 1.5em;">Useful Links</h1>
 		<ul class="linkList">
 			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
@@ -157,12 +157,11 @@ SEPTEMBER 6, 2015
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 30) {
-                    $("button").css('background-color', '#042A5F');
-                    $("button").css('color', '#fff');
+                     $("button").css('color', '#fff');$("button").css('background-color', '#042A5F');
                 }   
                 if(scroll_pos < 30) {
-                    $("button").css('background-color', 'inherit');
-                    $("button").css('color', 'inherit');
+                    $("button").css('color', 'inherit');$("button").css('background-color', 'inherit');
+                    
 
                 }            });
         });</script>
