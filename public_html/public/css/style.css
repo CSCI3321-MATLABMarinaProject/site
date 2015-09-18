@@ -12,12 +12,6 @@ h1 {
 	font-size: 1.75em;
 	text-decoration: none;
 	letter-spacing: .2em;
-	line-height: 1.1em;
-	margin: 0px;
-}
-h1 a {
-	color: #042C62;
-	text-decoration: none;
 }
 #MATLAB, .logo_color {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -38,7 +32,6 @@ h1 a {
 }
 #logo_color {
 	color: #0AA0D9;
-	padding: 0px;
 	font-weight: bold;
 }
 footer {
@@ -53,9 +46,8 @@ footer a:link, a:visited {
 	background-color: rgba(255, 255, 255, 1.0);
 	padding: 0 1em;
 }
-ul {
-	list-style-type: none;
-	margin-left: -2em;
+.videoList li {
+	list-style: none;
 }
 .pure-g {
 	letter-spacing: normal;
@@ -69,8 +61,6 @@ ul {
 #menu-toggle {
 	display: inline-block;
 	position: fixed;
-	top: 0;
-	left: 0;
 	transition: left 0.2s ease;
 	width: 100%;
 	height: 1.5em;
@@ -85,6 +75,7 @@ ul {
 	width: 200px;
 	transition: left 0.2s ease;
 	overflow: auto;
+	z-index: 1;
 }
 .slicknav_btn {
 	display: none;
@@ -92,6 +83,7 @@ ul {
 .sidebar-links {
 	margin: 0 auto;
 	padding-bottom: 5px;
+	#FFFFFF-space: nowrap;
 }
 .sidebar-links li a:link, .sidebar-links li a:visited {
 	text-decoration: none;
@@ -109,21 +101,25 @@ ul {
 	font-weight: 600;
 	color: #EBB035;
 }
-#header-img {
-	margin-top: 0.1em;
-	background-position: center;
-}
 header {
 	text-align: center;
-	margin-bottom: 2%;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */;
+	height: 0;
+	text-align: center;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+	text-align: center;
 }
 /* BEGIN PHONE SCREEN SETTINGS */
 @media screen and (max-width: 768px) {
-#header-img {
-	background-image: url("../images/logo-blueprint-narrow.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
 p {
 	text-align: justify;
 }
@@ -131,16 +127,12 @@ p {
 	width: 100%;
 }
 .container {
-	margin-left: 0px;
 	max-width: 100%;
-	background-color: #fff;
+	background-color: #FFFFFF;
 	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-}
-.container li {
-	margin-bottom: 10px;
 }
 #main-content {
 	width: 100%;
@@ -150,13 +142,13 @@ p {
 	margin-top: 2em;
 	display: block;
 	left: -200px;
-	background-color: white;
+	background-color: #FFFFFF;
 	border-right: 2px dashed #bbb;
-/* SMOOTH SCROLLING */overflow-y: scroll; /* has to be scroll, not auto */;
+	overflow-y: scroll; /* SMOOTH SCROLLING has to be scroll, not auto */;
 	-webkit-overflow-scrolling: touch;
 }
 #nav-container li a, #nav {
-	color: black;
+	color: #000000;
 }
 #nav-container.active {
 	left: 0;
@@ -172,14 +164,12 @@ p {
 	left: 0;
 	position: fixed;
 	display: block;
-	width: 100%;
-	height: 1.5em;
-	background-color: transparent;
 	box-shadow: none;
+	z-index: 1;
 }
 #menu-toggle button {
-	color: black;
-	background-color: #fff;
+	color: #000000;
+	background-color: #FFFFFF;
 	border: 2px #CCCCCC solid;
 	-webkit-transition: background-color 2s ease-in-out;
 	-moz-transition: background-color 2s ease-in-out;
@@ -197,15 +187,9 @@ p {
 #MATLAB, .logo_color {
 	font-size: 1.75em;
 }
-#MATLAB {
-	text-decoration: overline;
-	color: #042C62;
-	padding-top: 1%;
-}
 h1, h2 {
 	font-size: 1.2em;
 	text-align: center;
-	margin-bottom: -10px;
 }
 h1 {
 	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
@@ -218,6 +202,8 @@ h1 {
 }
 .sidebar-links li {
 	text-align: center;
+	list-style-type: none;
+	margin-left: -30px;
 }
 #logoImage {
 	width: 100%;
@@ -230,12 +216,6 @@ h1 {
 and (max-width : 1024px){
 header {
 	text-align: center;
-	margin-bottom: 2%;
-}
-#header-img {
-	background-image: url("../images/logo-blueprint-narrow.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 p {
 	text-align: justify;
@@ -244,16 +224,12 @@ p {
 	width: 100%;
 }
 .container {
-	margin-left: 0px;
 	max-width: 100%;
-	background-color: #fff;
+	background-color: #FFFFFF;
 	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-}
-.container li {
-	margin-bottom: 10px;
 }
 #main-content {
 	width: 100%;
@@ -263,14 +239,14 @@ p {
 	margin-top: 2.5em;
 	display: block;
 	left: -200px;
-	background-color: white;
+	background-color: #FFFFFF;
 	overflow-y: scroll; /* has to be scroll, not auto */;
 	-webkit-overflow-scrolling: touch;
 	border-right: 2px dashed #bbb;
 	z-index: 1; /* POSITION BEFORE ALL OTHER ELEMENTS */
 }
 #nav-container li a, #nav {
-	color: black;
+	color: #000000;
 }
 #nav-container.active {
 	left: 0;
@@ -279,19 +255,12 @@ p {
 	left: 0;
 }
 #menu-toggle {
-	left: 0;
-	position: fixed;
-	left: 0;
-	position: fixed;
 	display: block;
-	width: 100%;
-	height: 1.5em;
-	background-color: transparent;
 	box-shadow: none;
 }
 #menu-toggle button {
-	color: black;
-	background-color: #fff;
+	color: #000000;
+	background-color: #FFFFFF;
 	border: 2px #CCCCCC solid;
 	-webkit-transition: background-color 2s ease-in-out;
 	-moz-transition: background-color 2s ease-in-out;
@@ -309,15 +278,9 @@ p {
 #MATLAB, .logo_color {
 	font-size: 1.75em;
 }
-#MATLAB {
-	text-decoration: overline;
-	color: #042C62;
-	padding-top: 1%;
-}
 h1, h2 {
 	font-size: 1.2em;
 	text-align: center;
-	margin-bottom: -10px;
 }
 h1 {
 	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
@@ -328,10 +291,12 @@ h1 {
 #slogan {
 	margin-top: -2%;
 	position: relative;
-	white-space: nowrap;
+	#FFFFFF-space: nowrap;
 }
 .sidebar-links li {
 	text-align: center;
+	list-style-type: none;
+	margin-left: -30px;
 }
 #logoImage {
 	width: 100%;
@@ -344,14 +309,10 @@ h1 {
 body {
 	background-image: url("../images/wallpaper.jpg");
 }
-#header-img {
-	background-image: url("../images/logo.jpg");
-	background-size: cover;
-}
 #slogan {
 	margin-top: -2%;
 	position: relative;
-	white-space: nowrap;
+	#FFFFFF-space: nowrap;
 }
 #menu-toggle {
 	display: none;
@@ -379,18 +340,11 @@ body {
 	transition: .5s;
 }
 .sidebar-links li {
-	margin-left: 10px;
 	padding-bottom: 5px;
-}
-ul {
 	list-style-type: square;
 }
 #logoImage {
 	width: 80%;
-}
-table, th, td {
-	border: 2px #042C62 solid;
-	padding: 10px;
 }
 }
 /* END DESKTOP SCREEN SETTINGS */
