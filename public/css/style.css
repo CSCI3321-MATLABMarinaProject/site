@@ -3,8 +3,11 @@ FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015 
 */
-h1, h2, p {
-	font-family: Arial, Helvetica, sans-serif;
+html{
+	color: #000000;
+}
+h1, h2 {
+	font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
 	text-rendering: optimizeLegibility;
 }
 h1 {
@@ -12,9 +15,11 @@ h1 {
 	font-size: 1.75em;
 	text-decoration: none;
 	letter-spacing: .2em;
+}p {
+	text-rendering: optimizeLegibility;
 }
 #MATLAB, .logo_color {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
 	display: inline-block;
 	text-rendering: optimizeLegibility;
 }
@@ -136,7 +141,7 @@ p {
 	-webkit-overflow-scrolling: touch;
 }
 #nav-container li a, #nav {
-	color: #000000;
+	color: #333333;
 }
 #nav-container li{
 	border-bottom: 1px solid #E9E9E9;
@@ -162,7 +167,7 @@ p {
 	z-index: 1;
 }
 #menu-toggle button {
-	color: #000000;
+	color: #333333;
 	background-color: #FFFFFF;
 	border: 2px #CCCCCC solid;
 	-webkit-transition: background-color 2s ease-in-out;
@@ -192,7 +197,7 @@ h1 {
 	background: -ms-radial-gradient(circle, #E9E9E9, transparent);
 }
 h3{
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 .videoTitle{
 		background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
