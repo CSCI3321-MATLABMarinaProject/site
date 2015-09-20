@@ -124,9 +124,9 @@ SEPTEMBER 6, 2015
         <section id="main-content" class="pure-u-1 pure-u-md-4-5">
 	</section>
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
-		<h1 style="font-size: 1.5em;">Useful Links</h1>
-		<ul class="linkList">
-			<li><a href="books.html">Books</a></li>
+		<h1>Useful Links</h1>
+		<ul>
+			<li><a href="public/pages/books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
 			<li><a href="publications.html">Relevant Publications</a></li>
 			<li><a href="http://www.mathworks.com">MathWorks</a></li>
@@ -157,12 +157,10 @@ SEPTEMBER 6, 2015
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 30) {
-                     $("button").css('color', '#fff');$("button").css('background-color', '#042A5F');
+                     $("button").css('color', '#FFFFFF');$("button").css('background-color', '#042A5F');
                 }   
                 if(scroll_pos < 30) {
                     $("button").css('color', 'inherit');$("button").css('background-color', 'inherit');
-                    
-
                 }            });
         });</script>
 

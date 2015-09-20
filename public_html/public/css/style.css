@@ -1,10 +1,13 @@
-/* styles.css
+﻿/* styles.css
 FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015 
 */
-h1, h2, p {
-	font-family: Arial, Helvetica, sans-serif;
+html {
+	color: #000000;
+}
+h1, h2 {
+	font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
 	text-rendering: optimizeLegibility;
 }
 h1 {
@@ -13,8 +16,11 @@ h1 {
 	text-decoration: none;
 	letter-spacing: .2em;
 }
+p {
+	text-rendering: optimizeLegibility;
+}
 #MATLAB, .logo_color {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
 	display: inline-block;
 	text-rendering: optimizeLegibility;
 }
@@ -48,6 +54,7 @@ footer a:link, a:visited {
 }
 .videoList li {
 	list-style: none;
+	margin-left: -40px;
 }
 .pure-g {
 	letter-spacing: normal;
@@ -83,7 +90,7 @@ footer a:link, a:visited {
 .sidebar-links {
 	margin: 0 auto;
 	padding-bottom: 5px;
-	#FFFFFF-space: nowrap;
+	white-space: nowrap;
 }
 .sidebar-links li a:link, .sidebar-links li a:visited {
 	text-decoration: none;
@@ -104,22 +111,13 @@ footer a:link, a:visited {
 header {
 	text-align: center;
 }
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */;
-	height: 0;
-	text-align: center;
+.linkList a{
+	color:#099DD5;
+	text-decoration:none;
 }
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 80%;
-	height: 80%;
-	text-align: center;
-}
-/* BEGIN PHONE SCREEN SETTINGS */
-@media screen and (max-width: 768px) {
+/* BEGIN PHONE AND TABLET SCREEN SETTINGS */
+@media screen and (max-width: 768px),screen and (min-width : 768px) 
+and (max-width : 1024px) {
 p {
 	text-align: justify;
 }
@@ -139,7 +137,7 @@ p {
 	border: none;
 }
 #nav-container {
-	margin-top: 2em;
+	margin-top: 2.3em;
 	display: block;
 	left: -200px;
 	background-color: #FFFFFF;
@@ -148,7 +146,13 @@ p {
 	-webkit-overflow-scrolling: touch;
 }
 #nav-container li a, #nav {
-	color: #000000;
+	color: #333333;
+}
+#nav-container li {
+	border-bottom: 1px solid #E9E9E9;
+}
+#nav-container li:last-child {
+	border-bottom: none;
 }
 #nav-container.active {
 	left: 0;
@@ -168,7 +172,7 @@ p {
 	z-index: 1;
 }
 #menu-toggle button {
-	color: #000000;
+	color: #333333;
 	background-color: #FFFFFF;
 	border: 2px #CCCCCC solid;
 	-webkit-transition: background-color 2s ease-in-out;
@@ -176,7 +180,7 @@ p {
 	-o-transition: background-color 2s ease-in-out;
 	-khtml-transition: background-color 2s ease-in-out;
 	transition: background-color 2s ease-in-out;
-	padding: 4px;
+	padding: 6px;
 }
 #menu-toggle button:focus {
 	color: #90cfd5;
@@ -192,6 +196,15 @@ h1, h2 {
 	text-align: center;
 }
 h1 {
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
+	background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
+	background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
+	background: -ms-radial-gradient(circle, #E9E9E9, transparent);
+}
+h3 {
+	font-size: 0.9em;
+}
+.videoTitle {
 	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
 	background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
 	background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
@@ -206,101 +219,31 @@ h1 {
 	margin-left: -30px;
 }
 #logoImage {
-	width: 100%;
 	margin-bottom: -10px;
+}
+.videoWrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	text-align: center;
 }
 }
 /* END PHONE SCREEN SETTINGS */
-/* BEGIN TABLET SCREEN SETTINGS */
+/* BEGIN TABLET ONLY SCREEN SETTINGS */
 @media screen and (min-width : 768px) 
 and (max-width : 1024px){
-header {
-	text-align: center;
-}
-p {
-	text-align: justify;
-}
-#logoImage {
-	width: 100%;
-}
-.container {
-	max-width: 100%;
-	background-color: #FFFFFF;
-	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-	background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-}
-#main-content {
-	width: 100%;
-	border: none;
-}
-#nav-container {
-	margin-top: 2.5em;
-	display: block;
-	left: -200px;
-	background-color: #FFFFFF;
-	overflow-y: scroll; /* has to be scroll, not auto */;
-	-webkit-overflow-scrolling: touch;
-	border-right: 2px dashed #bbb;
-	z-index: 1; /* POSITION BEFORE ALL OTHER ELEMENTS */
-}
-#nav-container li a, #nav {
-	color: #000000;
-}
-#nav-container.active {
-	left: 0;
-}
-#nav-container.active {
-	left: 0;
-}
-#menu-toggle {
-	display: block;
-	box-shadow: none;
-}
 #menu-toggle button {
-	color: #000000;
-	background-color: #FFFFFF;
-	border: 2px #CCCCCC solid;
-	-webkit-transition: background-color 2s ease-in-out;
-	-moz-transition: background-color 2s ease-in-out;
-	-o-transition: background-color 2s ease-in-out;
-	-khtml-transition: background-color 2s ease-in-out;
-	transition: background-color 2s ease-in-out;
 	padding: 8px;
-}
-#menu-toggle button:focus {
-	color: #90cfd5;
-}
-#menu-toggle.active {
-	left: 200px;
-}
-#MATLAB, .logo_color {
-	font-size: 1.75em;
-}
-h1, h2 {
-	font-size: 1.2em;
-	text-align: center;
-}
-h1 {
-	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
-	background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
-	background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
-	background: -ms-radial-gradient(circle, #E9E9E9, transparent);
 }
 #slogan {
 	margin-top: -2%;
 	position: relative;
-	#FFFFFF-space: nowrap;
+	white-space: nowrap;
 }
-.sidebar-links li {
-	text-align: center;
-	list-style-type: none;
-	margin-left: -30px;
-}
-#logoImage {
-	width: 100%;
-	margin-bottom: -10px;
+#slogan {
+	display: block;
 }
 }
 /* END TABLET SCREEN SETTINGS */
@@ -312,7 +255,7 @@ body {
 #slogan {
 	margin-top: -2%;
 	position: relative;
-	#FFFFFF-space: nowrap;
+	white-space: nowrap;
 }
 #menu-toggle {
 	display: none;
@@ -329,7 +272,8 @@ body {
 }
 #main-content {
 	border-right: 2px dashed #bbb;
-	max-width: 75%;
+	max-width: 75%;	min-height: 500px;
+
 	padding-right: 20px;
 }
 #nav-container li a:link {
@@ -345,6 +289,10 @@ body {
 }
 #logoImage {
 	width: 80%;
+}
+.videoList li {
+	border-bottom: 2px dashed #CCCCCC;
+	padding-bottom: 10px;
 }
 }
 /* END DESKTOP SCREEN SETTINGS */
