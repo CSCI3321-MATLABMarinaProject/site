@@ -1,4 +1,4 @@
-﻿/* styles.css
+/* styles.css
 FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015 
@@ -175,11 +175,11 @@ p {
 	color: #333333;
 	background-color: #FFFFFF;
 	border: 2px #CCCCCC solid;
-	-webkit-transition: background-color 2s ease-in-out;
-	-moz-transition: background-color 2s ease-in-out;
-	-o-transition: background-color 2s ease-in-out;
-	-khtml-transition: background-color 2s ease-in-out;
-	transition: background-color 2s ease-in-out;
+	-webkit-transition: background-color 1s ease-in-out;
+	-moz-transition: background-color 1s ease-in-out;
+	-o-transition: background-color 1s ease-in-out;
+	-khtml-transition: background-color 1s ease-in-out;
+	transition: background-color 1s ease-in-out;
 	padding: 6px;
 }
 #menu-toggle button:focus {
