@@ -125,7 +125,7 @@ SEPTEMBER 6, 2015
 	</section>
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
 		<h1>Useful Links</h1>
-		<ul>
+		<ul class="linkList">
 			<li><a href="public/pages/books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
 			<li><a href="publications.html">Relevant Publications</a></li>
