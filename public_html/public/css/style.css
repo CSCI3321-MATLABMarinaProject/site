@@ -132,6 +132,7 @@ header {
 	cursor: hand;
 	cursor: pointer;
 	display: block;
+	border: 1px solid #395881;
 }
 img.youtube-thumb {
 	bottom: 0;
@@ -347,6 +348,12 @@ body {
 .videoList li {
 	border-bottom: 2px dashed #CCCCCC;
 	padding-bottom: 10px;
+}.videoTitle {
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
+	background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
+	background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
+	background: -ms-radial-gradient(circle, #E9E9E9, transparent);
 }
+
 }
 /* END DESKTOP SCREEN SETTINGS */
