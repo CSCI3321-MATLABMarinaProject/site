@@ -123,14 +123,12 @@ header {
 }
 .youtube-player {
 	display: block;
-	width: 100%; /* assuming that the video has a 16:9 ratio */;
+	width: auto; /* assuming that the video has a 16:9 ratio */;
 	padding-bottom: 56.25%;
 	overflow: hidden;
 	position: relative;
-	width: 100%;
-	height: 100%;
+	height: auto;
 	cursor: hand;
-	cursor: pointer;
 	display: block;
 	border: 1px solid #395881;
 }
