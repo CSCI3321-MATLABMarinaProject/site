@@ -126,7 +126,7 @@ SEPTEMBER 6, 2015
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
 		<h1>Useful Links</h1>
 		<ul>
-			<li><a href="public/pages/books.html">Books</a></li>
+			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
 			<li><a href="publications.html">Relevant Publications</a></li>
 			<li><a href="http://www.mathworks.com">MathWorks</a></li>
@@ -152,17 +152,8 @@ SEPTEMBER 6, 2015
 <script src="js/SlickNav-master/jquery.slicknav.js"></script>
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
-<script>$(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 30) {
-                     $("button").css('color', '#FFFFFF');$("button").css('background-color', '#042A5F');
-                }   
-                if(scroll_pos < 30) {
-                    $("button").css('color', 'inherit');$("button").css('background-color', 'inherit');
-                }            });
-        });</script>
+<script src="js/scroll.js"></script>
+<script src="js/collapse.js"></script>
 
 </body>
 

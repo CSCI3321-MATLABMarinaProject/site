@@ -18,6 +18,12 @@ $(document).ready(function (){
         }
     });
 
+    $('.container').on('click', 'a', function (e){
+        e.preventDefault();
+        var filename = $(this).attr('href');
+
+    });
+
     $('#menu-toggle').on('click', 'button', toggleMenu);
 
     function toggleMenu() {
@@ -34,15 +40,6 @@ $(document).ready(function (){
 
         this.get('#:page', function() {
             $mainContents.load('pages/' + this.params['page'] + '.html');
-        });
-
-        this.get('/:page', function() {
-            if (this.params['page'].slice(-5) == '.html') {
-                window.location.href = window.location.protocol + '//' + window.location.hostname +
-                    '/#' + this.params['page'].slice(0, -5);
-            } else {
-                window.location = window.location.href;
-            }
         });
 
     }).run('#index');
