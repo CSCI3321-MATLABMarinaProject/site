@@ -1,7 +1,7 @@
-$(document).ready(function (){
+$(document).ready(function () {
 
     var $menu = $('#menu');
-    var $menuContainer =$('#nav-container');
+    var $menuContainer = $('#nav-container');
     var $mainContents = $('#main-content');
 
     $menu.slicknav({
@@ -9,7 +9,7 @@ $(document).ready(function (){
     });
     $menu.slicknav('open');
 
-    $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e){
+    $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e) {
         e.preventDefault();
         var filename = $(this).attr('href');
         if (filename != "#") {
@@ -18,16 +18,35 @@ $(document).ready(function (){
         }
     });
 
-    $('.container').on('click', 'a', function (e){
+    $('.container').on('click', 'a', function (e) {
         e.preventDefault();
-        var filename = $(this).attr('href');
-
+        var link = this.href;
+        var page = $(this).attr('href');
+        var external = new RegExp('/' + window.location.host + '/');
+        var pdf = page.slice(-3) == 'pdf';
+        if (!external.test(link)) {
+            var newTab = window.open("", "_blank");
+            newTab.location = link;
+        } else if (pdf) {
+            var newTab = window.open("", "_blank");
+            newTab.location = link;
+        } else {
+            $.ajax({
+                url: 'pages/' + page,
+                error: function () {
+                    alert("Invalid link");
+                },
+                success: function () {
+                    window.location.hash = page.slice(0, -5);
+                }
+            });
+        }
     });
 
     $('#menu-toggle').on('click', 'button', toggleMenu);
 
     function toggleMenu() {
-        if ($menuContainer.hasClass('active')){
+        if ($menuContainer.hasClass('active')) {
             $menuContainer.removeClass('active');
             $(this).removeClass('active');
         } else {
@@ -36,9 +55,9 @@ $(document).ready(function (){
         }
     }
 
-    Sammy(function() {
+    Sammy(function () {
 
-        this.get('#:page', function() {
+        this.get('#:page', function () {
             $mainContents.load('pages/' + this.params['page'] + '.html');
         });
 
@@ -48,8 +67,8 @@ $(document).ready(function (){
 
 (function (window, document) {
 
-    var layout   = document.getElementById('layout'),
-        menu     = document.getElementById('menu'),
+    var layout = document.getElementById('layout'),
+        menu = document.getElementById('menu'),
         menuLink = document.getElementById('menuLink');
 
     function toggleClass(element, className) {
@@ -57,7 +76,7 @@ $(document).ready(function (){
             length = classes.length,
             i = 0;
 
-        for(; i < length; i++) {
+        for (; i < length; i++) {
             if (classes[i] === className) {
                 classes.splice(i, 1);
                 break;
@@ -72,12 +91,12 @@ $(document).ready(function (){
     }
 
     /*menuLink.onclick = function (e) {
-        var active = 'active';
+     var active = 'active';
 
-        e.preventDefault();
-        toggleClass(layout, active);
-        toggleClass(menu, active);
-        toggleClass(menuLink, active);
-    };*/
+     e.preventDefault();
+     toggleClass(layout, active);
+     toggleClass(menu, active);
+     toggleClass(menuLink, active);
+     };*/
 
 }(this, this.document));
