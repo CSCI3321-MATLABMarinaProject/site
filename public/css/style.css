@@ -3,8 +3,12 @@ FOR USE WITH PAGES ON MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015 
 */
-h1, h2, p {
-    font-family: Arial, Helvetica, sans-serif;
+html {
+    color: #000000;
+}
+
+h1, h2 {
+    font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
     text-rendering: optimizeLegibility;
 }
 
@@ -13,17 +17,14 @@ h1 {
     font-size: 1.75em;
     text-decoration: none;
     letter-spacing: .2em;
-    line-height: 1.1em;
-    margin: 0px;
 }
 
-h1 a {
-    color: #042C62;
-    text-decoration: none;
+p {
+    text-rendering: optimizeLegibility;
 }
 
 #MATLAB, .logo_color {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
     display: inline-block;
     text-rendering: optimizeLegibility;
 }
@@ -35,10 +36,8 @@ h1 a {
 }
 
 #slogan {
+    text-align: center;
     font-style: italic;
-    margin-top: 0px;
-    font-style: italic;
-    margin-top: 0px;
     background: -webkit-linear-gradient(#000, #6C6E70);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,7 +45,6 @@ h1 a {
 
 #logo_color {
     color: #0AA0D9;
-    padding: 0px;
     font-weight: bold;
 }
 
@@ -65,9 +63,9 @@ footer a:link, a:visited {
     padding: 0 1em;
 }
 
-ul {
-    list-style-type: none;
-    margin-left: -2em;
+.videoList li {
+    list-style: none;
+    margin-left: -40px;
 }
 
 .pure-g {
@@ -84,9 +82,11 @@ ul {
 #menu-toggle {
     display: inline-block;
     position: fixed;
-    top: 0;
-    left: 0;
     transition: left 0.2s ease;
+    width: 100%;
+    height: 1.5em;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 #nav-container {
@@ -97,6 +97,7 @@ ul {
     width: 200px;
     transition: left 0.2s ease;
     overflow: auto;
+    z-index: 1;
 }
 
 .slicknav_btn {
@@ -106,6 +107,7 @@ ul {
 .sidebar-links {
     margin: 0 auto;
     padding-bottom: 5px;
+    white-space: nowrap;
 }
 
 .sidebar-links li a:link, .sidebar-links li a:visited {
@@ -114,7 +116,7 @@ ul {
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
-    -webkit-transition: .5s; /* ...and now for the proper property */;
+    -webkit-transition: .5s;
     transition: .5s;
 }
 
@@ -122,35 +124,159 @@ ul {
     color: #099DD5;
 }
 
-/*.slicknav_parent ul li:first-child a {
+.slicknav_parent ul li:first-child a {
     font-weight: 600;
     color: #EBB035;
-}*/
+}
 
-/* BEGIN PHONE SCREEN SETTINGS */
-@media screen and (max-width: 768px) {
-    header {
-        text-align: center;
-        margin-bottom: 2%;
-    }
+header {
+    text-align: center;
+}
 
+.linkList a {
+    color: #099DD5;
+    text-decoration: none;
+}
+
+.youtube-container {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.youtube-player {
+    display: block;
+    width: auto; /* assuming that the video has a 16:9 ratio */;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    cursor: hand;
+    display: block;
+    border: 1px solid #395881;
+}
+
+img.youtube-thumb {
+    bottom: 0;
+    display: block;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+}
+
+div.play-button {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url("../images/play.png") no-repeat;
+}
+
+#youtube-iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inlineIcon {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.content {
+    display: none;
+}
+
+#listContainer {
+    margin-top: 15px;
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
+#expList {
+    padding-left: 0;
+}
+
+#expList ul {
+    list-style: none;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+#expList p {
+    display: block;
+}
+
+#expList li {
+    line-height: 140%;
+    background-position: 1px 8px;
+    background-repeat: no-repeat;
+    padding: 0.2em 0.2em 0.2em 40px;
+    cursor: pointer;
+    list-style: none;
+    display: block;
+    margin: 0.5em;
+    background-color: rgba(0, 0, 100, 0.8);
+    box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+}
+
+#expList li:hover {
+    color: inherit;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #099DD5;
+}
+
+.itemTitle {
+    font-size: 1.5em;
+}
+
+/* Collapsed state for list element */
+#expList .collapsed {
+    background-image: url(../images/collapse.png);
+}
+
+/* Expanded state for list element
+/* NOTE: This class must be located UNDER the collapsed one */
+#expList .expanded {
+    background-image: url(../images/exp.png);
+}
+
+/* BEGIN PHONE AND TABLET SCREEN SETTINGS */
+@media screen and (max-width: 768px), screen and (min-width: 768px)
+and (max-width: 1024px) {
     p {
         text-align: justify;
     }
 
+    #logoImage {
+        width: 100%;
+    }
+
     .container {
-        margin-left: 0px;
-        margin-top: 2em;
         max-width: 100%;
-        background-color: #fff;
+        background-color: #FFFFFF;
         background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
         background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
         background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
         background-image: repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
-    }
-
-    .container li {
-        margin-bottom: 10px;
     }
 
     #main-content {
@@ -159,17 +285,25 @@ ul {
     }
 
     #nav-container {
-        margin-top: 2em;
+        margin-top: 2.3em;
         display: block;
         left: -200px;
-        background-color: white;
-        overflow-y: scroll; /* has to be scroll, not auto */;
-        -webkit-overflow-scrolling: touch;
+        background-color: #FFFFFF;
         border-right: 2px dashed #bbb;
+        overflow-y: scroll; /* SMOOTH SCROLLING has to be scroll, not auto */;
+        -webkit-overflow-scrolling: touch;
     }
 
     #nav-container li a, #nav {
-        color: black;
+        color: #333333;
+    }
+
+    #nav-container li {
+        border-bottom: 1px solid #E9E9E9;
+    }
+
+    #nav-container li:last-child {
+        border-bottom: none;
     }
 
     #nav-container.active {
@@ -189,18 +323,20 @@ ul {
         left: 0;
         position: fixed;
         display: block;
-        width: 100%;
-        height: 2em;
-        background-color: #042c62;
         box-shadow: none;
+        z-index: 1;
     }
 
     #menu-toggle button {
-        color: white;
-        background-color: transparent;
-        border: none;
-        padding: 0.5em;
-        box-sizing: border-box;
+        color: #333333;
+        background-color: #FFFFFF;
+        border: 2px #CCCCCC solid;
+        -webkit-transition: background-color 1s ease-in-out;
+        -moz-transition: background-color 1s ease-in-out;
+        -o-transition: background-color 1s ease-in-out;
+        -khtml-transition: background-color 1s ease-in-out;
+        transition: background-color 1s ease-in-out;
+        padding: 6px;
     }
 
     #menu-toggle button:focus {
@@ -215,16 +351,20 @@ ul {
         font-size: 1.75em;
     }
 
-    #MATLAB {
-        text-decoration: overline;
-        color: #042C62;
-        padding-top: 1%;
-    }
-
     h1, h2 {
         font-size: 1.2em;
         text-align: center;
-        margin-bottom: -10px;
+    }
+
+    h1 {
+        background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
+        background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
+        background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
+        background: -ms-radial-gradient(circle, #E9E9E9, transparent);
+    }
+
+    h3 {
+        font-size: 0.9em;
     }
 
     #slogan {
@@ -233,15 +373,58 @@ ul {
 
     .sidebar-links li {
         text-align: center;
+        list-style-type: none;
+        margin-left: -30px;
     }
 
+    #logoImage {
+        margin-bottom: -10px;
+    }
+
+    .videoWrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .itemTitle {
+        font-size: 1em;
+    }
 }
 
 /* END PHONE SCREEN SETTINGS */
+/* BEGIN TABLET ONLY SCREEN SETTINGS */
+@media screen and (min-width: 768px)
+and (max-width: 1024px) {
+    #menu-toggle button {
+        padding: 8px;
+    }
+
+    #slogan {
+        margin-top: -2%;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    #slogan {
+        display: block;
+    }
+}
+
+/* END TABLET SCREEN SETTINGS */
 /* BEGIN DESKTOP SCREEN SETTINGS */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
     body {
         background-image: url("../images/wallpaper.jpg");
+    }
+
+    #slogan {
+        margin-top: -2%;
+        position: relative;
+        white-space: nowrap;
     }
 
     #menu-toggle {
@@ -263,6 +446,7 @@ ul {
     #main-content {
         border-right: 2px dashed #bbb;
         max-width: 75%;
+        min-height: 500px;
         padding-right: 20px;
     }
 
@@ -275,12 +459,29 @@ ul {
     }
 
     .sidebar-links li {
-        margin-left: 10px;
         padding-bottom: 5px;
+        list-style-type: square;
     }
 
-    ul {
-        list-style-type: square;
+    #logoImage {
+        width: 80%;
+    }
+
+    .videoList li {
+        border-bottom: 2px dashed #CCCCCC;
+        padding-bottom: 10px;
+    }
+
+    .videoTitle {
+        background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
+        background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
+        background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
+        background: -ms-radial-gradient(circle, #E9E9E9, transparent);
+    }
+
+    .container .content {
+        display: none;
+        padding: 5px;
     }
 }
 

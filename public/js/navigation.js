@@ -3,7 +3,6 @@ $(document).ready(function () {
     var $menu = $('#menu');
     var $menuContainer = $('#nav-container');
     var $mainContents = $('#main-content');
-    var currentPage = 'index';
 
     $menu.slicknav({
         prependTo: $('#side-nav')
@@ -16,6 +15,31 @@ $(document).ready(function () {
         if (filename != "#") {
             window.location.hash = filename.slice(0, -5);
             toggleMenu();
+        }
+    });
+
+    $('.container').on('click', 'a', function (e) {
+        e.preventDefault();
+        var link = this.href;
+        var page = $(this).attr('href');
+        var external = new RegExp('/' + window.location.host + '/');
+        var pdf = page.slice(-3) == 'pdf';
+        if (!external.test(link)) {
+            var newTab = window.open("", "_blank");
+            newTab.location = link;
+        } else if (pdf) {
+            var newTab = window.open("", "_blank");
+            newTab.location = link;
+        } else {
+            $.ajax({
+                url: 'pages/' + page,
+                error: function () {
+                    alert("Invalid link");
+                },
+                success: function () {
+                    window.location.hash = page.slice(0, -5);
+                }
+            });
         }
     });
 
@@ -35,20 +59,6 @@ $(document).ready(function () {
 
         this.get('#:page', function () {
             $mainContents.load('pages/' + this.params['page'] + '.html');
-            currentPage = this.params['page'];
-        });
-
-        this.get('/:page', function () {
-            var hash = this.params['page'].slice(0, -5);
-            if (this.params['page'].slice(-5) == '.html') {
-                window.location.href = window.location.protocol + '//' + window.location.hostname +
-                    '/#' + hash;
-                currentPage = hash;
-            } else {
-                window.open(window.location.href);
-                window.location.href = window.location.href = window.location.protocol + '//' + window.location.hostname +
-                    '/#' + currentPage;
-            }
         });
 
     }).run('#index');
