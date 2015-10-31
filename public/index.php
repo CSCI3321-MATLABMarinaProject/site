@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5d57c75d49475ce2180f9f75e49d97d4760718aa
 <!--  index.php
 HOME PAGE FOR MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
@@ -32,7 +35,11 @@ SEPTEMBER 6, 2015
 </nav>
 <nav id="menu" class=".side-nav">
 	<ul>
+<<<<<<< HEAD
 		<li><a href="indexx.php">Home</a></li>
+=======
+		<li><a href="index.html">Home</a></li>
+>>>>>>> 5d57c75d49475ce2180f9f75e49d97d4760718aa
 		<li><a href="#">Introduction</a>
 		<ul>
 			<li><a href="introduction.html">Welcome to MATLAB Marina</a></li>
@@ -115,7 +122,11 @@ SEPTEMBER 6, 2015
 		<div id="logo">
 			<div id="logo_text">
 				<div>
+<<<<<<< HEAD
 					<a href="index.php">
+=======
+					<a href="index.html">
+>>>>>>> 5d57c75d49475ce2180f9f75e49d97d4760718aa
 					<img id="logoImage" alt="" src="images/logo.jpg"></a></div>
 				<h2 id="slogan">Navigating the high seas of programming using MATLAB</h2>
 			</div>
