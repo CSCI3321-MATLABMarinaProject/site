@@ -9,7 +9,7 @@ html {
 h1, p, #MATLAB, .logo_color {
 	text-rendering: optimizeLegibility;
 }
-h1, h2 {
+h1, h2, #MATLAB, .logo_color {
 	font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
 }
 h1 {
@@ -19,7 +19,6 @@ h1 {
 	letter-spacing: .2em;
 }
 #MATLAB, .logo_color {
-	font-family: Century Schoolbook, Book Antiqua, Palatino, serif;
 	display: inline-block;
 }
 #MATLAB {
@@ -28,7 +27,6 @@ h1 {
 	padding-top: 1%;
 }
 #slogan {
-	text-align: center;
 	font-style: italic;
 	background: -webkit-linear-gradient(#000, #6C6E70);
 	-webkit-background-clip: text;
@@ -93,11 +91,6 @@ footer a:link, a:visited {
 .sidebar-links li a:link, .sidebar-links li a:visited {
 	text-decoration: none;
 	color: inherit;
-	-o-transition: .5s;
-	-ms-transition: .5s;
-	-moz-transition: .5s;
-	-webkit-transition: .5s;
-	transition: .5s;
 }
 .sidebar-links li a:hover {
 	color: #099DD5;
@@ -106,33 +99,37 @@ footer a:link, a:visited {
 	font-weight: 600;
 	color: #EBB035;
 }
-header {
+.sidebar-links li a:link, .sidebar-links li a:visited, #expList li, .itemTitle {
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+header, #expList li, #slogan {
 	text-align: center;
+}
+img.youtube-thumb, .youtube-container, .youtube-player, #expList p, #expList li {
+	display: block;
 }
 .linkList a {
 	color: #099DD5;
 	text-decoration: none;
 }
 .youtube-container {
-	display: block;
-	margin: 20px auto;
+	margin: -50px auto;
 	width: 100%;
 	max-width: 600px;
 }
 .youtube-player {
-	display: block;
-	width: auto; /* assuming that the video has a 16:9 ratio */;
+	width: 60%;
 	padding-bottom: 56.25%;
 	overflow: hidden;
 	position: relative;
-	height: auto;
 	cursor: hand;
-	display: block;
-	border: 1px solid #395881;
 }
 img.youtube-thumb {
 	bottom: 0;
-	display: block;
 	left: 0;
 	margin: auto;
 	max-width: 100%;
@@ -170,7 +167,6 @@ div.play-button {
 }
 #listContainer {
 	margin-top: 15px;
-	background-color: rgba(204, 204, 204, 0.5);
 }
 #expList {
 	padding-left: 0;
@@ -178,34 +174,18 @@ div.play-button {
 #expList ul {
 	list-style: none;
 	cursor: pointer;
-	margin-left: -50px;
-}
-#expList p {
-	display: block;
 }
 #expList li {
-	line-height: 140%;
 	background-position: 1px 8px;
 	background-repeat: no-repeat;
-	padding: 0.2em 0.2em 0.2em 40px;
 	cursor: pointer;
 	list-style: none;
-	display: block;
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
-	color: white;
-	text-align: center;
-}
-#expList li:hover {
-	color: inherit;
+	margin-bottom: .2em;
+	background-color: rgb(12, 72, 108);
 }
 .itemTitle {
 	font-size: 1.5em;
-	-o-transition: .5s;
-	-ms-transition: .5s;
-	-moz-transition: .5s;
-	-webkit-transition: .5s;
-	transition: .5s;
-	color: #099DD5;
+	color: #ffffff;
 }
 /* Collapsed state for list element */
 #expList .collapsed {
@@ -330,8 +310,13 @@ h3 {
 }
 #expList li {
 	background-color: rgb(15, 75, 111);
+	color: white;
+	padding: 0.2em 0.2em 0.2em 40px;
 	margin: 0.5em;
+}.youtube-player {
+	width: 80%;
 }
+
 }
 /* END PHONE AND TABLET SCREEN SETTINGS */
 /* BEGIN TABLET ONLY SCREEN SETTINGS */
