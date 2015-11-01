@@ -18,6 +18,9 @@ h1 {
 	text-decoration: none;
 	letter-spacing: .2em;
 }
+a:link{
+	color: #fff;
+}
 #MATLAB, .logo_color {
 	display: inline-block;
 }
@@ -28,7 +31,7 @@ h1 {
 }
 #slogan {
 	font-style: italic;
-	background: -webkit-linear-gradient(#000, #6C6E70);
+	background: -webkit-linear-gradient(#000000, #6C6E70);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -106,7 +109,7 @@ footer a:link, a:visited {
 	-webkit-transition: .5s;
 	transition: .5s;
 }
-header, #expList li, #slogan {
+header, #slogan {
 	text-align: center;
 }
 img.youtube-thumb, .youtube-container, .youtube-player, #expList p, #expList li {
@@ -117,13 +120,12 @@ img.youtube-thumb, .youtube-container, .youtube-player, #expList p, #expList li 
 	text-decoration: none;
 }
 .youtube-container {
-	margin: -50px auto;
-	width: 100%;
-	max-width: 600px;
+	width: auto;
 }
 .youtube-player {
 	width: 60%;
-	padding-bottom: 56.25%;
+	padding-bottom: 46.25%;
+	margin: 0 auto;
 	overflow: hidden;
 	position: relative;
 	cursor: hand;
@@ -207,7 +209,7 @@ p {
 }
 .container {
 	max-width: 100%;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	background-image: -webkit-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: -moz-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -moz-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
 	background-image: -o-repeating-linear-gradient(45deg, rgba(0, 191, 255, .1), rgba(0, 191, 255, .1) 1px, transparent 1px, transparent 15px), -o-repeating-linear-gradient(-45deg, rgba(255, 105, 180, .1), rgba(255, 105, 180, .1) 1px, transparent 1px, transparent 15px);
@@ -221,7 +223,7 @@ p {
 	margin-top: 2.3em;
 	display: block;
 	left: -200px;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	border-right: 2px dashed #bbb;
 	overflow-y: scroll; /* SMOOTH SCROLLING has to be scroll, not auto */;
 	-webkit-overflow-scrolling: touch;
@@ -254,8 +256,8 @@ p {
 }
 #menu-toggle button {
 	color: #333333;
-	background-color: #FFFFFF;
-	border: 2px #CCCCCC solid;
+	background-color: #ffffff;
+	border: 2px #cccccc solid;
 	-webkit-transition: background-color 1s ease-in-out;
 	-moz-transition: background-color 1s ease-in-out;
 	-o-transition: background-color 1s ease-in-out;
@@ -289,7 +291,7 @@ h3 {
 	display: none;
 }
 .sidebar-links li {
-	text-align: left;
+	text-align: center;
 	list-style-type: none;
 	margin-left: -30px;
 }
@@ -310,13 +312,15 @@ h3 {
 }
 #expList li {
 	background-color: rgb(15, 75, 111);
-	color: white;
+	color: #ffffff;
 	padding: 0.2em 0.2em 0.2em 40px;
 	margin: 0.5em;
-}.youtube-player {
-	width: 80%;
+	text-align: center;
 }
-
+.youtube-player {
+	width: 80%;
+	margin-left: -40px;
+}
 }
 /* END PHONE AND TABLET SCREEN SETTINGS */
 /* BEGIN TABLET ONLY SCREEN SETTINGS */
@@ -379,18 +383,25 @@ body {
 	width: 80%;
 }
 .videoList li {
-	border-bottom: 2px dashed #CCCCCC;
+	border-bottom: 2px dashed #cccccc;
 	padding-bottom: 10px;
 }
-.videoTitle {
-	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E9E9E9), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
-	background: -webkit-radial-gradient(circle, #E9E9E9, transparent); /* Firefox 3.6+ */;
-	background: -moz-radial-gradient(circle, #E9E9E9, transparent); /* IE 10 */;
-	background: -ms-radial-gradient(circle, #E9E9E9, transparent);
+.selectALinkBelow {
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(rgb(255, 150, 134)), to(transparent)); /* Safari 5.1+, Chrome 10+ */;
+	background: -webkit-radial-gradient(circle, rgb(255, 150, 134), transparent); /* Firefox 3.6+ */;
+	background: -moz-radial-gradient(circle, rgb(255, 150, 134), transparent); /* IE 10 */;
+	background: -ms-radial-gradient(circle, rgb(255, 150, 134), transparent);
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 1em;
 }
 .container .content {
 	display: none;
 	padding: 5px;
+}
+#expList li {
+	text-indent: 20px;
 }
 }
 /* END DESKTOP SCREEN SETTINGS */

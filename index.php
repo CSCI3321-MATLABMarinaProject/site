@@ -1,4 +1,3 @@
-
 <!--  index.php
 HOME PAGE FOR MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
@@ -20,7 +19,7 @@ SEPTEMBER 6, 2015
 <!--<![endif]-->
 <link href="js/SlickNav-master/dist/slicknav.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="images/gear.png">
+<link href="images/gear.png" rel="shortcut icon">
 </head>
 
 <body>
@@ -126,7 +125,7 @@ SEPTEMBER 6, 2015
         <section id="main-content" class="pure-u-1 pure-u-md-4-5">
 	</section>
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
-		<h1>Useful Links</h1>
+		<h1><span style="font-size:large;">Useful Links</span></h1>
 		<ul class="linkList">
 			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
@@ -155,7 +154,6 @@ SEPTEMBER 6, 2015
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/scroll.js"></script>
-<script src="js/collapse.js"></script>
 
 </body>
 

@@ -2,8 +2,8 @@
   $('#expList').find('li:has(ul)')
   	.click( function(event) {
   		if (this == event.target) {
-  			$(this).toggleClass('expanded');
-  			$(this).children('ul').toggle('medium');
+  			$(this).toggleClass('expanded').slideUp;
+  			$(this).children('ul').slideToggle("medium");
   		}
   		return false;
   	})
