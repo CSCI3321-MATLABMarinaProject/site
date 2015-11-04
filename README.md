@@ -1,4 +1,1 @@
-# MATLAB Marina Mobile Redesign
-
-Demo available at
-http://45.55.43.232/
+# see it at http://jamietommy.com
