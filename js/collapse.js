@@ -1,4 +1,5 @@
-﻿function prepareList() {
+﻿<!-- USED TO COLLAPSE LIST ITEMS WITH EMBEDDED VIDEOS -->
+function prepareList() {
   $('#expList').find('li:has(ul)')
   	.click( function(event) {
   		if (this == event.target) {

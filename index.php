@@ -1,12 +1,12 @@
+<!doctype html>
+<html lang="en">
+
+<head>
 <!--  index.php
 HOME PAGE FOR MATLAB MARINA WEBSITE
 CREATED BY: TYLER RUTLAND, ERIK LEON, PETER DRINOVAK, JEREMY BROWN
 SEPTEMBER 6, 2015
 -->
-<!doctype html>
-<html lang="en">
-
-<head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>Matlab Marina</title>
@@ -17,6 +17,8 @@ SEPTEMBER 6, 2015
 <!-->
 <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css" rel="stylesheet">
 <!--<![endif]-->
+<link rel="stylesheet" href="css/fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
 <link href="js/SlickNav-master/dist/slicknav.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="images/gear.png" rel="shortcut icon">
@@ -125,7 +127,7 @@ SEPTEMBER 6, 2015
         <section id="main-content" class="pure-u-1 pure-u-md-4-5">
 	</section>
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
-		<h1><span style="font-size:large;">Useful Links</span></h1>
+		<h1><span style="font-size: large;">Useful Links</span></h1>
 		<ul class="linkList">
 			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
@@ -154,6 +156,7 @@ SEPTEMBER 6, 2015
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/scroll.js"></script>
+
 
 </body>
 
