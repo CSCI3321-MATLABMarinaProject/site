@@ -19,6 +19,7 @@ SEPTEMBER 6, 2015
 <!--<![endif]-->
 <link href="js/SlickNav-master/dist/slicknav.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="images/gear.png" rel="shortcut icon">
 </head>
 
 <body>
@@ -31,7 +32,7 @@ SEPTEMBER 6, 2015
 </nav>
 <nav id="menu" class=".side-nav">
 	<ul>
-		<li><a href="index.html">Home</a></li>
+		<li><a href="indexx.php">Home</a></li>
 		<li><a href="#">Introduction</a>
 		<ul>
 			<li><a href="introduction.html">Welcome to MATLAB Marina</a></li>
@@ -114,7 +115,7 @@ SEPTEMBER 6, 2015
 		<div id="logo">
 			<div id="logo_text">
 				<div>
-					<a href="index.html">
+					<a href="index.php">
 					<img id="logoImage" alt="" src="images/logo.jpg"></a></div>
 				<h2 id="slogan">Navigating the high seas of programming using MATLAB</h2>
 			</div>
@@ -124,7 +125,7 @@ SEPTEMBER 6, 2015
         <section id="main-content" class="pure-u-1 pure-u-md-4-5">
 	</section>
 	<section class="sidebar-links pure-u-1 pure-u-md-1-5">
-		<h1>Useful Links</h1>
+		<h1><span style="font-size:large;">Useful Links</span></h1>
 		<ul class="linkList">
 			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
@@ -153,7 +154,6 @@ SEPTEMBER 6, 2015
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/scroll.js"></script>
-<script src="js/collapse.js"></script>
 
 </body>
 
