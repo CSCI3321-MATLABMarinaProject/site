@@ -95,7 +95,7 @@ footer a:link, a:visited {
 .sidebar-links li a:hover {
 	color: #099DD5;
 }
-.slicknav_parent ul li:first-child a {
+.current-page {
 	font-weight: 600;
 	color: #EBB035;
 }
