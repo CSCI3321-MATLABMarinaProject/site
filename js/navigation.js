@@ -58,7 +58,16 @@ $(document).ready(function () {
     Sammy(function () {
 
         this.get('#:page', function () {
-            $mainContents.load('pages/' + this.params['page'] + '.html');
+            var page = this.params['page'] + '.html';
+            $mainContents.load('pages/' + page);
+            $('.slicknav_nav > ul a[role="menuitem"]').filter(function(){
+                return $(this).attr('href') == page; 
+            }).addClass('current-page');
+
+            $('.slicknav_nav > ul a[role="menuitem"]').filter(function(){
+                return $(this).attr('href') !== page; 
+            }).removeClass('current-page');
+            
         });
 
     }).run('#index');
