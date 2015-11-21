@@ -125,30 +125,19 @@
 	padding: 5px 10px;
 	margin: 2px 5px;
 }
-.slicknav_nav .slicknav_row:hover {
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	color: #fff;
-}
-.slicknav_nav li a:hover {
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav li a:hover{
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	background: #ccc;
+	color: #fff;
 }
 .slicknav_nav a {
 	padding: 5px 10px;
 	margin: 2px 5px;
 	text-decoration: none;
 	color: #fff;
-	display: block;
-}
-.slicknav_nav a:hover {
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	
 }
 .slicknav_nav .slicknav_txtnode {
 	margin-left: 15px;

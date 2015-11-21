@@ -17,8 +17,6 @@ SEPTEMBER 6, 2015
 <!-->
 <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css" rel="stylesheet">
 <!--<![endif]-->
-<link rel="stylesheet" href="css/fancybox.css?v=2.1.5" type="text/css" media="screen" />
-
 <link href="js/SlickNav-master/dist/slicknav.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="images/gear.png" rel="shortcut icon">
@@ -132,7 +130,7 @@ SEPTEMBER 6, 2015
 			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
 			<li><a href="publications.html">Relevant Publications</a></li>
-			<li><a href="http://www.mathworks.com">MathWorks</a></li>
+			<li><a href="http://www.mathworks.com" target="_blank">MathWorks</a></li>
 			<li><a href="team.html">Team</a></li>
 			<li><a href="acknowledgements.html">Acknowledgements</a></li>
 		</ul>
@@ -151,12 +149,11 @@ SEPTEMBER 6, 2015
 		</p>
 	</footer>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/SlickNav-master/jquery.slicknav.js"></script>
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/scroll.js"></script>
-
 
 </body>
 

@@ -1,6 +1,6 @@
 ﻿<!-- USED TO COLLAPSE LIST ITEMS WITH EMBEDDED VIDEOS -->
 function prepareList() {
-  $('#expList').find('li:has(ul)')
+  $('.expList').find('li:has(ul)')
   	.click( function(event) {
   		if (this == event.target) {
   			$(this).toggleClass('expanded').slideUp;
@@ -15,3 +15,8 @@ function prepareList() {
   $(document).ready( function() {
       prepareList();
   });
+  
+  // MUST EXIST FOR HYPERLINKS TO OPEN IN COLLAPSE
+  $(this).children('a').click(function(event){
+    event.stopPropagation();
+});
