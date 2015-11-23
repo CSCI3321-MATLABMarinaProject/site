@@ -1,0 +1,4 @@
+Timeline<br>
+<i>April 2014</i><br><br>
+Most modules used in typical introductory programming courses have been completed. Click below for a detailed timeline.<br>
+<a href="timeline.html">Read more</a>
