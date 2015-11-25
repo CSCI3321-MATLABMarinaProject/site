@@ -32,7 +32,7 @@ SEPTEMBER 6, 2015
 </nav>
 <nav id="menu" class=".side-nav">
 	<ul>
-		<li><a href="indexx.php">Home</a></li>
+		<li><a href="index.php">Home</a></li>
 		<li><a href="#">Introduction</a>
 		<ul>
 			<li><a href="introduction.html">Welcome to MATLAB Marina</a></li>
