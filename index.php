@@ -17,6 +17,7 @@ SEPTEMBER 6, 2015
 <!-->
 <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css" rel="stylesheet">
 <!--<![endif]-->
+<link href="css/fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type="text/css" />
 <link href="js/SlickNav-master/dist/slicknav.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="images/gear.png" rel="shortcut icon">
@@ -32,7 +33,7 @@ SEPTEMBER 6, 2015
 </nav>
 <nav id="menu" class=".side-nav">
 	<ul>
-		<li><a href="index.php">Home</a></li>
+		<li><a href="indexx.php">Home</a></li>
 		<li><a href="#">Introduction</a>
 		<ul>
 			<li><a href="introduction.html">Welcome to MATLAB Marina</a></li>
@@ -41,24 +42,28 @@ SEPTEMBER 6, 2015
 			<li><a href="algorithm1.html">Algorithm Development I</a></li>
 		</ul>
 		</li>
-		<li><a href="fundamentalconcepts.html">Fundamental Programming Concepts</a>
+		<li><a href="#">Fundamental Programming Concepts</a>
 		<ul>
+			<li><a href="fundamentalconcepts.html">Introduction</a> </li>
 			<li><a href="variables.html">Variables</a></li>
-			<li><a href="arrays.html">Arrays</a>
+			<li><a href="#">Arrays</a>
 			<ul>
+				<li><a href="arrays.html">Introduction</a></li>
 				<li><a href="1darrays.html">1D Arrays &amp; Vectors</a></li>
 				<li><a href="2darrays.html">2D Arrays &amp; Matrices</a></li>
 			</ul>
 			</li>
 			<li><a href="logic.html">Logic Expressions</a></li>
-			<li><a href="conditional.html">Conditional Structures</a>
+			<li><a href="#">Conditional Structures</a>
 			<ul>
+				<li><a href="conditional.html">Introduction</a></li>
 				<li><a href="ifelse.html">If-Else Statements</a></li>
 				<li><a href="switchcase.html">Switch-Case Statements</a></li>
 			</ul>
 			</li>
-			<li><a href="iteration.html">Iteration</a>
+			<li><a href="#">Iteration</a>
 			<ul>
+				<li><a href="iteration.html">Introduction</a></li>
 				<li><a href="forloops.html">for Loops</a></li>
 				<li><a href="whileloops.html">while Loops</a></li>
 			</ul>
@@ -68,8 +73,9 @@ SEPTEMBER 6, 2015
 			<li><a href="algorithm2.html">Algorithm Development II</a></li>
 		</ul>
 		</li>
-		<li><a href="advancedconcepts.html">Advanced Programming Concepts</a>
+		<li><a href="#">Advanced Programming Concepts</a>
 		<ul>
+			<li><a href="advancedconcepts.html">Introduction</a></li>
 			<li><a href="characters.html">Characters &amp; Strings</a></li>
 			<li><a href="cellarrays.html">Cell Arrays</a></li>
 			<li><a href="structures.html">Structures</a></li>
@@ -80,16 +86,18 @@ SEPTEMBER 6, 2015
 			<li><a href="searching.html">Searching</a></li>
 		</ul>
 		</li>
-		<li><a href="applications.html">Applications</a>
+		<li><a href="#">Applications</a>
 		<ul>
+			<li><a href="applications.html">Introduction</a></li>
 			<li><a href="plotting.html">Plotting</a>
 			<ul>
 				<li><a href="2dplotting.html">2D Plotting</a></li>
 				<li><a href="3dplotting.html">3D Plotting</a></li>
 			</ul>
 			</li>
-			<li><a href="numericalmethods.html">Numerical Methods</a>
+			<li><a href="#">Numerical Methods</a>
 			<ul>
+				<li><a href="numericalmethods.html">Introduction</a></li>
 				<li><a href="linearalgebra.html">Linear Algebraic Equations</a></li>
 				<li><a href="datastatistics.html">Data Statistics</a></li>
 				<li><a href="curvefitting.html">Curvefitting</a></li>
@@ -130,10 +138,17 @@ SEPTEMBER 6, 2015
 			<li><a href="books.html">Books</a></li>
 			<li><a href="resources.html">Other Resources</a></li>
 			<li><a href="publications.html">Relevant Publications</a></li>
-			<li><a href="http://www.mathworks.com" target="_blank">MathWorks</a></li>
+			<li><a href="http://www.mathworks.com">MathWorks</a></li>
 			<li><a href="team.html">Team</a></li>
 			<li><a href="acknowledgements.html">Acknowledgements</a></li>
 		</ul>
+		<span class="latestNews">
+		<h1><span style="font-size: large;">Latest News</span></h1>
+		<?php
+$myfile = fopen("pages/latestNews.txt", "r");
+echo fread($myfile,filesize("pages/latestNews.txt"));
+fclose($myfile);
+?></span>
 	</section>
     </main>
     <footer>
@@ -149,11 +164,15 @@ SEPTEMBER 6, 2015
 		</p>
 	</footer>
 </div>
+<a class="cd-top" href="#0"></a>
+<!-- TO RETURN TO TOP OF PAGE -->
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/SlickNav-master/jquery.slicknav.js"></script>
+<!-- NAVIGATION MENU -->
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/scroll.js"></script>
+<!-- CONTROLS SCROLLING MENU BUTTON AND RETURN TO TOP OF PAGE -->
 
 </body>
 
