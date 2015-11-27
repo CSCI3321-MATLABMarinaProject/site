@@ -17,7 +17,7 @@
             prependTo: 'body',
             appendTo: '',
             parentTag: 'a',
-            closeOnClick: false,
+            closeOnClick: true,
             allowParentLinks: false,
             nestedParentLinks: true,
             showChildren: false,
