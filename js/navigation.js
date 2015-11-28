@@ -24,7 +24,12 @@ $(document).ready(function () {
         var page = $(this).attr('href');
         var external = new RegExp('/' + window.location.host + '/');
         var pdf = page.slice(-3) == 'pdf';
-        if (!external.test(link)) {
+        var matlab = page.slice(-1) == 'm';
+
+        if (page == 'index.php'){
+            window.location.hash = 'index'; 
+        }
+        else if (!external.test(link)) {
             var newTab = window.open("", "_blank");
             newTab.location = link;
         } else if (pdf) {
@@ -42,6 +47,7 @@ $(document).ready(function () {
             });
         }
     });
+
 
     $('#menu-toggle').on('click', 'button', toggleMenu);
 
@@ -67,7 +73,7 @@ $(document).ready(function () {
             $('.slicknav_nav > ul a[role="menuitem"]').filter(function(){
                 return $(this).attr('href') !== page; 
             }).removeClass('current-page');
-            
+
         });
 
     }).run('#index');
@@ -77,35 +83,32 @@ $(document).ready(function () {
 (function (window, document) {
 
     var layout = document.getElementById('layout'),
-        menu = document.getElementById('menu'),
-        menuLink = document.getElementById('menuLink');
+    menu = document.getElementById('menu'),
+    menuLink = document.getElementById('menuLink');
 
-    function toggleClass(element, className) {
-        var classes = element.className.split(/\s+/),
-            length = classes.length,
-            i = 0;
+function toggleClass(element, className) {
+    var classes = element.className.split(/\s+/),
+    length = classes.length,
+    i = 0;
 
-        for (; i < length; i++) {
-            if (classes[i] === className) {
-                classes.splice(i, 1);
-                break;
-            }
-        }
-        // The className is not found
-        if (length === classes.length) {
-            classes.push(className);
-        }
-
-        element.className = classes.join(' ');
+for (; i < length; i++) {
+    if (classes[i] === className) {
+        classes.splice(i, 1);
+        break;
     }
+}
+// The className is not found
+if (length === classes.length) {
+    classes.push(className);
+}
 
-    /*menuLink.onclick = function (e) {
-     var active = 'active';
-
-     e.preventDefault();
-     toggleClass(layout, active);
-     toggleClass(menu, active);
-     toggleClass(menuLink, active);
-     };*/
+element.className = classes.join(' ');
+}
 
 }(this, this.document));
+
+function openMatlab(name){
+    var newTab = window.open("", "_blank");
+    var codeLink =  "/code.php?file=matlabprograms/" + name;
+    newTab.location = codeLink;
+}
