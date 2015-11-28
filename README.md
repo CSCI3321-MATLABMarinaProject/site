@@ -4,7 +4,10 @@ Demo available at
 http://45.55.43.232/
 
 ## Project Overview
-This project is a redesign of the MATLAB Marina Virtual Learning Environment website. It employs a responsive design to allow access on devices of various screen sizes, including desktops, tablets, and smartphones. It also uses client-side navigation to improve performance by minimizing data requested from the server. Similarly, embedded instructional videos are lazy-loaded to reduce page-load times. The new website also features a custom logo, a collapsible navigation menu, and a completely new aesthetic. 
+This project is a redesign of the MATLAB Marina Virtual Learning Environment website. It employs a responsive design to allow access on devices of various screen sizes, including desktops, tablets, and smartphones. It also uses client-side navigation to improve performance by minimizing data requested from the server. Similarly, embedded instructional videos are lazy-loaded to reduce page-load times. The new website also features a custom logo, a collapsible navigation menu, and a completely new aesthetic.
+
+## Usage
+The contents of this repository can be copied into the document root of a web server, with *index.php* being the index file.
 
 ## File Structure
 Pages are located in the *html* directory in the form of HTML snippets. Javascript and Cascading Style Sheets files are located in the *js* and *css* directories, respectively. MATLAB example code files and exercise/primer PDFs are located in the *matlabprograms* and *pdf* directories, respectively. The master page of the website is the *index.php* file located in the root directory. 
@@ -21,7 +24,7 @@ On small screens (<1024 pixels wide), the navigation is toggleable and slides in
 
 ### Sidebar
 On large screens, there is a sidebar on the right side of the page containing *Useful Links* and *News*.
-On small screens, the *Useful Links* are moved to be underneath the content and the *News*is omitted. 
+On small screens, the *Useful Links* are moved to be underneath the content and the *News* is omitted.
 
 ### Background
 On large screens, there is a background image. 
