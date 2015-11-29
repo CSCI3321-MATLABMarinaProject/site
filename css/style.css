@@ -245,7 +245,7 @@ div.play-button {
     /* image replacement properties */overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: rgba(13, 73, 109, .3) url(../images/arrow.png) no-repeat center 50%;
+    background: transparent url(../images/arrow.png) no-repeat center 50%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;

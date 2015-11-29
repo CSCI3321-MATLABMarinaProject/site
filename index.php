@@ -166,7 +166,6 @@ Most modules used in typical introductory programming courses have been complete
 <script src="js/sammy.min.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/scroll.js"></script><!-- CONTROLS SCROLLING MENU BUTTON AND RETURN TO TOP OF PAGE -->
-
 </body>
 
 </html>
