@@ -2,3 +2,5 @@
 .vagrant
 Vagrantfile
 provision.sh
+*.xcf
+.gitignore
