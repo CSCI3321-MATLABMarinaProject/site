@@ -35,6 +35,7 @@ $(document).ready(function () {
         } else if (pdf) {
             var newTab = window.open("", "_blank");
             newTab.location = link;
+            ga('send', 'pageview', page);
         } else {
             $.ajax({
                 url: 'pages/' + page,
@@ -66,6 +67,7 @@ $(document).ready(function () {
         this.get('#:page', function () {
             var page = this.params['page'] + '.html';
             $mainContents.load('pages/' + page);
+            ga('send', 'pageview', page);
             $('.slicknav_nav > ul a[role="menuitem"]').filter(function(){
                 return $(this).attr('href') == page; 
             }).addClass('current-page');
@@ -107,8 +109,20 @@ element.className = classes.join(' ');
 
 }(this, this.document));
 
+/* Opening MATLAB program files */
 function openMatlab(name){
     var newTab = window.open("", "_blank");
     var codeLink =  "/code.php?file=matlabprograms/" + name;
     newTab.location = codeLink;
+    ga('send', 'pageView', name);
 }
+
+/* Tracking */
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create'/*, 'UA-41494852-1' , 'armstrong.edu'*/);
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
