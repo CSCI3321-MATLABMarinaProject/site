@@ -30,4 +30,13 @@ On small screens, the *Useful Links* are moved to be underneath the content and 
 On large screens, there is a background image. 
 On small screens, there is a background pattern created with CSS.
 
+## Content
 
+### PDFs and MATLAB Program Files
+PDF (.pdf) and MATLAB (.m) files open in a new tab or window, depending on the user's browser settings. MATLAB files have syntax highlighting and proper formatting. 
+
+### Video tutorials
+Videos are embedded into each page in the form of a collapsible list. The user can choose to watch the video on the page or open the video on Youtube.com. For performance, each video is loaded only after the user expands the item, to avoid having to load videos that may not be played. 
+
+## Analytics
+Code for Google Analytics tracking is located in *navigation.js*. 

@@ -12,7 +12,10 @@ $(document).ready(function () {
     $('.slicknav_nav > ul a[role="menuitem"]').on('click', function (e) {
         e.preventDefault();
         var filename = $(this).attr('href');
-        if (filename != "#") {
+        if (filename == 'index.php'){
+            window.location.hash = 'index'; 
+        }
+        else if (filename != "#") {
             window.location.hash = filename.slice(0, -5);
             toggleMenu();
         }
