@@ -44,7 +44,7 @@ h1 {
     font-weight: bold;
 }
 footer {
-    margin: 0 auto;
+    margin: 0 10px;
 }
 footer a:link, a:visited {
     color: inherit;
@@ -245,7 +245,8 @@ div.play-button {
     /* image replacement properties */overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: transparent url(../images/arrow.png) no-repeat center 50%;
+    background: rgba(7, 67, 103, 0.5) url(../images/arrow.png) no-repeat center 50%;
+    border-radius: 20px;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
