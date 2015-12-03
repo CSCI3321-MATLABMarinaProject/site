@@ -32,11 +32,17 @@ On small screens, there is a background pattern created with CSS.
 
 ## Content
 
-### PDFs and MATLAB Program Files
+### PDFs and MATLAB Source Code Files
 PDF (.pdf) and MATLAB (.m) files open in a new tab or window, depending on the user's browser settings. MATLAB files have syntax highlighting and proper formatting. 
+
+#### Adding a Link to a MATLAB Source Code File
+MATLAB source code links are located in division \<div\> elements with class *progLinks*. To add a new link, add an anchor \<a\> tag with *href* attribute # and *onclick* attribute "javascript: openMatlab('filename.m')", where filename.m is a the name of the MATLAB source code file. 
 
 ### Video tutorials
 Videos are embedded into each page in the form of a collapsible list. The user can choose to watch the video on the page or open the video on Youtube.com. For performance, each video is loaded only after the user expands the item, to avoid having to load videos that may not be played. 
+
+#### Adding Videos
+Adding a new video requires the ID of the video hosted on Youtube. The ID can be found after the *watch?v=* in the URL of the video. To add a new video to a page, add a list-item \<li\> element in the unordered list \<ul\>  within the  division \<div\> element with *ID* attribute *listContainer* on the page. Within this list-item, add a division element with *class* attribute *itemTitle* and *data-id* attribute with the ID of the Youtube video.
 
 ## Analytics
 Code for Google Analytics tracking is located in *navigation.js*. 
